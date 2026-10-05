@@ -1,0 +1,2486 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-theme="dark" data-accent="gold">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bonnie Burgers حلال — Smash Burgers on Mayfield Road, Edinburgh EH9</title>
+<meta name="description" content="Halal smash burgers, Philly cheesesteaks, wings and shakes on Mayfield Road, Blackford — south Edinburgh EH9 3AA. Reserve a table or a crowd order, verified hours, honest reviews.">
+<meta name="theme-color" content="#070C12">
+<link rel="canonical" href="https://bonnieburgers.co.uk/">
+<meta property="og:title" content="Bonnie Burgers حلال — Mayfield Road, Edinburgh EH9">
+<meta property="og:description" content="Halal smash burgers on Mayfield Road, Blackford. Reserve, or order for the whole team.">
+<meta property="og:type" content="restaurant.restaurant">
+<meta property="og:image" content="img/05-the-vantage.jpg">
+<link rel="preload" as="image" href="img/01-signature-smash.jpg">
+
+<!-- ============================================================
+     BOOT SCRIPT — runs before paint: theme / accent / language.
+     Everything it writes is read by the later module. No TDZ risk:
+     window.__BB_BOOT is defined here, before any module reads it.
+     ============================================================ -->
+<script>
+window.__BB_BOOT = (function () {
+  var K = { theme: 'bb.theme', accent: 'bb.accent', lang: 'bb.lang', defaults: 'bb.defaults' };
+  function get(k, f) { try { var v = localStorage.getItem(k); return v === null ? f : v; } catch (e) { return f; } }
+  function set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+  var langs = ['en', 'ar'];
+  var auto = (navigator.languages && navigator.languages[0]) || navigator.language || 'en';
+  var stored = get(K.lang, null);
+  var lang = stored && langs.indexOf(stored) > -1 ? stored : (String(auto).toLowerCase().indexOf('ar') === 0 ? 'ar' : 'en');
+  var theme = get(K.theme, 'dark');
+  var accent = get(K.accent, 'gold');
+  var root = document.documentElement;
+  root.setAttribute('data-theme', theme);
+  root.setAttribute('data-accent', accent);
+  root.setAttribute('lang', lang);
+  root.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
+  return { K: K, get: get, set: set, lang: lang, theme: theme, accent: accent, autoDetected: !stored, langs: langs };
+})();
+</script>
+
+<!-- ============================================================
+     SEO — JSON-LD. Facts are sourced in PITCH-Bonnie-Burgers.md
+     (Appendix evidence log). Hour set = the majority public record
+     (FSA register + Just Eat + Uber Eats); Tuesday closed.
+     ============================================================ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "@id": "https://bonnieburgers.co.uk/#restaurant",
+  "name": "Bonnie Burgers حلال",
+  "alternateName": "Bonnie Burgers",
+  "description": "Halal smash-burger kitchen on Mayfield Road, Blackford, south Edinburgh. Smash burgers, Philly cheesesteaks, wings, loaded fries and shakes. Collection, eat-in and partner delivery.",
+  "url": "https://bonnieburgers.co.uk/",
+  "image": ["https://bonnieburgers.co.uk/img/01-signature-smash.jpg", "https://bonnieburgers.co.uk/img/05-the-vantage.jpg"],
+  "servesCuisine": ["Burgers", "American", "Halal", "Chicken", "Fast Food"],
+  "priceRange": "££",
+  "currenciesAccepted": "GBP",
+  "paymentAccepted": "Cash, Credit Card, Debit Card",
+  "acceptsReservations": "True",
+  "telephone": "+441313744464",
+  "hasMap": "https://maps.app.goo.gl/2urWwxMADRnEiogk7",
+  "menu": "https://bonnieburgers.co.uk/wp-content/uploads/sites/312/2025/09/LCP39213-Bonnie-Burgers-1.pdf",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "61 Mayfield Road",
+    "addressLocality": "Edinburgh",
+    "addressRegion": "Scotland",
+    "postalCode": "EH9 3AA",
+    "addressCountry": "GB"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 55.9306092, "longitude": -3.1761176 },
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.1", "reviewCount": "79", "bestRating": "5", "worstRating": "1" },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Sunday", "Monday"], "opens": "17:10", "closes": "21:50" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday", "Thursday", "Friday", "Saturday"], "opens": "17:10", "closes": "21:50" }
+  ],
+  "areaServed": [
+    { "@type": "Place", "name": "Blackford" },
+    { "@type": "Place", "name": "Mayfield" },
+    { "@type": "Place", "name": "Newington" },
+    { "@type": "Place", "name": "Marchmont" },
+    { "@type": "Place", "name": "Morningside" },
+    { "@type": "Place", "name": "The Grange" }
+  ],
+  "sameAs": ["https://bonnieburgers.co.uk/", "https://www.facebook.com/bonnieburgersofficial/"]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Do I need to book, or be a member?", "acceptedAnswer": { "@type": "Answer", "text": "There is no membership and no booking required for one or two people — walk in. Reservations exist for groups of six or more and for crowd orders, so the kitchen can hold stock and the counter can hold your slot." } },
+    { "@type": "Question", "name": "What are your real opening hours?", "acceptedAnswer": { "@type": "Answer", "text": "The published record disagrees: our own site lists 12pm–10pm Monday to Friday, while the Food Standards Agency register, Just Eat and Uber Eats all list an evening service from about 17:10 to 21:50 and no Tuesday service. This page uses the majority record and disables Tuesday slots. Phone +44 131 374 4464 to confirm today." } },
+    { "@type": "Question", "name": "Do you cater for dietary needs and children?", "acceptedAnswer": { "@type": "Answer", "text": "The kitchen is halal. There are vegetarian and vegan dishes (marked V and VG) and kids' meals from £4.95. There is no certified gluten-free menu: fryers and prep surfaces are shared, so ask at the counter and we will tell you exactly what we can and cannot do." } },
+    { "@type": "Question", "name": "Can you host a private function?", "acceptedAnswer": { "@type": "Answer", "text": "We do not have a private room. We do crowd orders — trays of burgers, wings and loaded fries built for 10 to 40 people — collected from the counter or delivered by our partners." } },
+    { "@type": "Question", "name": "Where do I park, and how far is the walk?", "acceptedAnswer": { "@type": "Answer", "text": "61 Mayfield Road, Edinburgh EH9 3AA: on-street parking on Mayfield Road and the surrounding streets, with Lothian Buses on Mayfield Road and West Mains Road. It is roughly a 9-minute walk up to Blackford Hill and the Royal Observatory, and about 5 minutes from the King's Buildings." } },
+    { "@type": "Question", "name": "What is your cancellation policy?", "acceptedAnswer": { "@type": "Answer", "text": "Group bookings can be changed or released up to two hours before the slot at no cost. Crowd orders of 20 or more may carry a holding deposit, which the counter will confirm in writing before anything is charged." } }
+  ]
+}
+</script>
+
+<style>
+/* ============================================================
+   1. DESIGN TOKENS
+   Theme (dark/light) x Accent (4) x Language (en/ar).
+   Every colour below is a measured, contrast-checked value.
+   Measured ratios are recorded in README.md and re-measured by qa.py.
+   ============================================================ */
+:root {
+  --font-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", serif;
+  --font-body: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-ar: "Amiri", "Noto Naskh Arabic", "Scheherazade New", "Traditional Arabic", "Times New Roman", serif;
+
+  --step-0: 1rem; --step-1: clamp(1.08rem, 1.4vw, 1.22rem); --step-2: clamp(1.3rem, 2vw, 1.6rem);
+  --step-3: clamp(1.6rem, 3vw, 2.35rem); --step-4: clamp(2.1rem, 5.2vw, 4rem);
+  --r-sm: 10px; --r-md: 16px; --r-lg: 24px; --r-xl: 34px;
+
+  --dur: .9s;            /* reveal duration — §5 */
+  --stagger: 90ms;       /* reveal stagger — §5 */
+  --ease: cubic-bezier(.2,.72,.2,1);
+  --dock-h: 60px;
+
+  /* Light theme — Daytime Minimalist */
+  --bg:#FDFBF7; --bg-2:#F7F4EE; --card:#F3EFEA; --text:#0F172A; --muted:#3B4553;
+  --rule:#DED7CB; --glass-bg:rgba(253,251,247,.72); --glass-brd:rgba(15,23,42,.14);
+  --shadow-1:0 1px 2px rgba(15,23,42,.05), 0 8px 24px rgba(15,23,42,.06);
+  --shadow-2:0 2px 6px rgba(15,23,42,.07), 0 18px 48px rgba(15,23,42,.10);
+  --scrim:rgba(253,251,247,.86); --on-hero:#FDFBF7;
+  --focus-halo:rgba(15,23,42,.30);
+}
+:root[data-theme="dark"] {
+  /* Dark theme — Evening / High-Opulence */
+  --bg:#070C12; --bg-2:#0A1119; --card:#111827; --text:#F5F1E8; --muted:#A8B0BD;
+  --rule:#243044; --glass-bg:rgba(17,24,39,.55); --glass-brd:rgba(245,241,232,.16);
+  --shadow-1:0 1px 2px rgba(0,0,0,.4), 0 10px 30px rgba(0,0,0,.35);
+  --shadow-2:0 2px 8px rgba(0,0,0,.45), 0 24px 60px rgba(0,0,0,.5);
+  --scrim:rgba(7,12,18,.72); --on-hero:#F5F1E8;
+  --focus-halo:rgba(0,0,0,.55);
+}
+/* --- Ambiance accents: 4 modes, re-tinted per theme --- */
+:root[data-theme="dark"][data-accent="gold"],
+:root[data-theme="dark"]:not([data-accent]) {
+  --accent:#D4AF37; --accent-ink:#E8CC72; --accent-solid:#D4AF37; --on-accent:#0A0E14;
+  --accent-soft:rgba(212,175,55,.15); --glow:rgba(212,175,55,.34);
+}
+:root[data-theme="dark"][data-accent="emerald"] {
+  --accent:#059669; --accent-ink:#3ED9A4; --accent-solid:#059669; --on-accent:#04140D;
+  --accent-soft:rgba(5,150,105,.18); --glow:rgba(16,185,129,.30);
+}
+:root[data-theme="dark"][data-accent="cobalt"] {
+  --accent:#1E40AF; --accent-ink:#93B4FF; --accent-solid:#1E40AF; --on-accent:#FFFFFF;
+  --accent-soft:rgba(30,64,175,.22); --glow:rgba(59,130,246,.32);
+}
+:root[data-theme="dark"][data-accent="rose"] {
+  --accent:#E11D48; --accent-ink:#FB7185; --accent-solid:#BE123C; --on-accent:#FFFFFF;
+  --accent-soft:rgba(225,29,72,.16); --glow:rgba(225,29,72,.30);
+}
+:root[data-theme="light"][data-accent="gold"],
+:root[data-theme="light"]:not([data-accent]) {
+  /* Executive Gold resolves to Copper in daylight — per palette spec */
+  /* accent-ink measured ≥7:1 on every light surface (card/linen/bg-2) */
+  --accent:#B45309; --accent-ink:#664A08; --accent-solid:#B45309; --on-accent:#FFFFFF;
+  --accent-soft:rgba(180,83,9,.10); --glow:rgba(180,83,9,.20);
+}
+:root[data-theme="light"][data-accent="emerald"] {
+  --accent:#047857; --accent-ink:#047857; --accent-solid:#047857; --on-accent:#FFFFFF;
+  --accent-soft:rgba(4,120,87,.10); --glow:rgba(4,120,87,.20);
+}
+:root[data-theme="light"][data-accent="cobalt"] {
+  --accent:#1E40AF; --accent-ink:#1E40AF; --accent-solid:#1E40AF; --on-accent:#FFFFFF;
+  --accent-soft:rgba(30,64,175,.10); --glow:rgba(30,64,175,.20);
+}
+:root[data-theme="light"][data-accent="rose"] {
+  --accent:#BE123C; --accent-ink:#BE123C; --accent-solid:#BE123C; --on-accent:#FFFFFF;
+  --accent-soft:rgba(190,18,60,.10); --glow:rgba(190,18,60,.20);
+}
+/* Focus ring token — always >= 3:1 against its surface, never animated from 0 */
+:root { --focus: var(--accent-ink); --hero-side:rgba(253,251,247,.90); --hero-mid:rgba(253,251,247,.58); }
+:root[data-theme="dark"] { --hero-side:rgba(7,12,18,.87); --hero-mid:rgba(7,12,18,.56); }
+
+/* ============================================================
+   2. RESET + BASE
+   ============================================================ */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font-family: var(--font-body); font-size: var(--step-0); line-height: 1.62;
+  overflow-x: hidden;                                    /* guards 390px */
+  transition: background-color .45s var(--ease), color .45s var(--ease);
+}
+html[lang="ar"] body { font-family: var(--font-ar); font-size: calc(var(--step-0) * 1.12); line-height: 1.9; }
+html[lang="ar"] .display, html[lang="ar"] h1, html[lang="ar"] h2, html[lang="ar"] h3 { line-height: 1.45; letter-spacing: 0; }
+img { max-width: 100%; height: auto; display: block; }
+h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height: 1.08; margin: 0; text-wrap: balance; }
+p { margin: 0 0 1rem; text-wrap: pretty; }
+a { color: var(--accent-ink); text-underline-offset: .18em; }
+[hidden] { display: none !important; }                     /* hard-won rule §6 */
+::selection { background: var(--accent); color: var(--on-accent); }
+
+/* Focus: visible, 3px, instant. Outline is NEVER transitioned from 0px. */
+:focus { outline: none; }
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+  border-radius: 4px;
+  transition: none;                       /* focus must be instant (§6) */
+  box-shadow: 0 0 0 7px var(--focus-halo);
+}
+.skip {
+  position: absolute; inset-inline-start: 12px; inset-block-start: -100px; z-index: 200;
+  background: var(--accent-solid); color: var(--on-accent);
+  padding: .7rem 1.1rem; border-radius: 0 0 12px 12px; font-weight: 700; text-decoration: none;
+  transition: inset-block-start .18s var(--ease);
+}
+.skip:focus-visible { inset-block-start: 0; }
+
+.wrap { width: min(1280px, 100% - 2.5rem); margin-inline: auto; }
+@media (max-width: 560px) { .wrap { width: min(1280px, 100% - 1.6rem); } }
+section { padding-block: clamp(3.4rem, 7vw, 7rem); position: relative; }
+.section-alt { background: var(--bg-2); }
+.eyebrow {
+  font-family: var(--font-body); font-size: .72rem; font-weight: 700; letter-spacing: .22em;
+  text-transform: uppercase; color: var(--accent-ink); margin: 0 0 .8rem;
+}
+html[lang="ar"] .eyebrow { letter-spacing: .06em; text-transform: none; font-size: .84rem; }
+.display { font-family: var(--font-display); }
+.lede { color: var(--muted); font-size: var(--step-1); max-width: 62ch; }
+.muted { color: var(--muted); }
+.note { font-size: .82rem; color: var(--muted); }
+.rule { height: 1px; background: var(--rule); border: 0; margin-block: 2rem; }
+.sr { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+/* ============================================================
+   3. BUTTONS / CHIPS / GLASS
+   ============================================================ */
+.btn {
+  --btn-pad: .82rem 1.35rem;
+  display: inline-flex; align-items: center; gap: .55rem; justify-content: center;
+  padding: var(--btn-pad); border-radius: 999px; border: 1px solid transparent;
+  font: inherit; font-weight: 650; font-size: .95rem; text-decoration: none; cursor: pointer;
+  background: var(--accent-solid); color: var(--on-accent);
+  transition: background-color .32s var(--ease), color .32s var(--ease),
+              border-color .32s var(--ease), transform .32s var(--ease), box-shadow .32s var(--ease);
+}
+.btn:hover { transform: translateY(-2px); box-shadow: 0 10px 30px var(--glow); }
+.btn:active { transform: translateY(0); }
+.btn-glass {
+  background: var(--glass-bg); color: var(--text);
+  border-color: var(--glass-brd); backdrop-filter: blur(14px) saturate(1.25);
+  -webkit-backdrop-filter: blur(14px) saturate(1.25);
+}
+.btn-glass:hover { border-color: var(--accent); box-shadow: 0 10px 34px var(--glow); background: var(--accent-soft); }
+.btn-ghost { background: transparent; color: var(--text); border-color: var(--rule); }
+.btn-ghost:hover { border-color: var(--accent); color: var(--accent-ink); }
+.btn-sm { --btn-pad: .55rem .95rem; font-size: .85rem; }
+.btn[aria-disabled="true"] { opacity: .5; cursor: not-allowed; }
+.chip {
+  display: inline-flex; align-items: center; gap: .4rem; padding: .34rem .72rem; border-radius: 999px;
+  background: var(--accent-soft); border: 1px solid var(--glass-brd); color: var(--text);
+  font-size: .78rem; font-weight: 600; white-space: normal; max-width: 100%;
+}
+.slot, .mchip, .pill-note { white-space: nowrap; }
+.mrow { flex-wrap: wrap; }
+.chip .dot { width: .5rem; height: .5rem; border-radius: 50%; background: var(--accent); flex: none; }
+.card {
+  background: var(--card); border: 1px solid var(--rule); border-radius: var(--r-lg);
+  padding: clamp(1.1rem, 2.2vw, 1.8rem); box-shadow: var(--shadow-1);
+  transition: border-color .4s var(--ease), box-shadow .4s var(--ease),
+              transform .4s var(--ease), background-color .4s var(--ease);
+}
+.card:hover { border-color: var(--accent); box-shadow: var(--shadow-2), 0 0 0 1px var(--glow); }
+.grid { display: grid; gap: clamp(.9rem, 2vw, 1.4rem); }
+.g2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.g3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.g4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (max-width: 980px) { .g3, .g4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 640px) { .g2, .g3, .g4 { grid-template-columns: minmax(0, 1fr); } }
+.icon-dir { flex: none; }
+[dir="rtl"] .icon-dir { transform: scaleX(-1); }           /* mirror directional icons */
+.latn { unicode-bidi: isolate; direction: ltr; }            /* pins Latin strings inside RTL */
+
+/* ============================================================
+   4. HEADER + FLOATING GLASS DOCK
+   ============================================================ */
+.site-head {
+  position: sticky; top: 0; z-index: 90; padding-block: .7rem;
+  background: linear-gradient(to bottom, var(--scrim) 55%, transparent);
+  backdrop-filter: blur(6px);
+}
+.head-row { display: flex; align-items: center; gap: 1rem; }
+.brand { display: flex; align-items: center; gap: .7rem; text-decoration: none; color: var(--text); min-width: 0; }
+.brand-mark {
+  width: 40px; height: 40px; flex: none; border-radius: 12px; display: grid; place-items: center;
+  background: var(--accent-soft); border: 1px solid var(--glass-brd); color: var(--accent-ink);
+  font-family: var(--font-display); font-weight: 700;
+}
+.brand-name { display: block; font-family: var(--font-display); font-size: 1.06rem; font-weight: 600; line-height: 1.15; white-space: nowrap; }
+.brand-sub { display: block; font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.arb { font-family: var(--font-ar); direction: rtl; unicode-bidi: isolate; font-size: 1.12em; }
+html[lang="ar"] .brand-sub { letter-spacing: 0; text-transform: none; }
+.nav-links { display: flex; gap: 1.1rem; margin-inline-start: auto; }
+.nav-links a {
+  color: var(--text); text-decoration: none; font-size: .88rem; font-weight: 600;
+  padding: .3rem .1rem; border-bottom: 2px solid transparent; transition: border-color .3s var(--ease), color .3s var(--ease);
+}
+.nav-links a:hover { border-color: var(--accent); color: var(--accent-ink); }
+.dock {
+  display: flex; align-items: center; flex-wrap: wrap; justify-content: center; max-width: 100%;
+  gap: .45rem; padding: .38rem .5rem; border-radius: 999px;
+  background: var(--glass-bg); border: 1px solid var(--glass-brd); box-shadow: var(--shadow-2);
+  backdrop-filter: blur(16px) saturate(1.35); -webkit-backdrop-filter: blur(16px) saturate(1.35);
+  margin-inline-start: auto;
+}
+.nav-links + .dock { margin-inline-start: 0; }
+.dock-group { display: flex; align-items: center; gap: .35rem; }
+.dock-sep { width: 1px; height: 26px; background: var(--glass-brd); }
+.icon-btn {
+  width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; cursor: pointer;
+  background: transparent; border: 1px solid transparent; color: var(--text);
+  transition: background-color .3s var(--ease), border-color .3s var(--ease), color .3s var(--ease);
+}
+.icon-btn:hover { background: var(--accent-soft); border-color: var(--glass-brd); color: var(--accent-ink); }
+.swatch {
+  width: 24px; height: 24px; border-radius: 50%; cursor: pointer; padding: 0;
+  border: 2px solid var(--glass-brd); background: var(--sw, #D4AF37);
+  transition: transform .3s var(--ease), border-color .3s var(--ease), box-shadow .3s var(--ease);
+}
+.swatch:hover { transform: scale(1.12); }
+.swatch[aria-pressed="true"] { border-color: var(--text); box-shadow: 0 0 0 3px var(--accent-soft), 0 0 14px var(--glow); }
+.lang-select {
+  appearance: none; background: transparent; color: var(--text); border: 1px solid var(--glass-brd);
+  border-radius: 999px; padding: .36rem 1.5rem .36rem .7rem; font: inherit; font-size: .82rem; font-weight: 650;
+  cursor: pointer;
+  max-width: 9.5rem; text-overflow: ellipsis;
+  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%);
+  background-position: right .78rem center, right .52rem center;
+  background-size: 5px 5px, 5px 5px; background-repeat: no-repeat;
+}
+[dir="rtl"] .lang-select { padding: .36rem .7rem .36rem 1.5rem;
+  background-position: left .78rem center, left .52rem center; }
+.lang-select option { background: var(--card); color: var(--text); }
+@media (max-width: 900px) {
+  .nav-links { position: absolute; inset-inline: 0; top: 100%; display: flex; gap: 1rem;
+    overflow-x: auto; padding: .5rem calc((100vw - min(1280px, 100% - 2.5rem))/2) .6rem;
+    -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .nav-links::-webkit-scrollbar { display: none; }
+  .head-row { flex-wrap: wrap; }
+  .site-head { padding-block: .6rem 2.2rem; }
+}
+@media (max-width: 560px) {
+  .dock-sep { display: none; }
+  .brand-sub { display: none; }
+  .dock { width: 100%; justify-content: flex-start; padding: .34rem .45rem; gap: .35rem; border-radius: 18px; }
+  .dock .swatch { width: 21px; height: 21px; }
+  .dock .icon-btn { width: 34px; height: 34px; }
+  .lang-select { max-width: 7.4rem; font-size: .78rem; padding-inline: .6rem 1.35rem; }
+  .trustbar .chip, .hero-kicker .chip { font-size: .74rem; }
+}
+
+/* ============================================================
+   5. HERO — WebGL2 liquid light + fallbacks
+   ============================================================ */
+.hero { position: relative; min-height: clamp(560px, 88vh, 900px); display: grid; grid-template-columns: minmax(0, 1fr); align-items: center; overflow: clip; }
+.hero-bg { position: absolute; inset: 0; z-index: 0; }
+.hero-bg canvas, .hero-bg img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.hero-bg img { opacity: .34; }
+html[data-theme="light"] .hero-bg img { opacity: .22; }
+.hero-veil {
+  position: absolute; inset: 0; z-index: 1; pointer-events: none;
+  background:
+    linear-gradient(to top, var(--bg) 0%, var(--hero-mid) 26%, transparent 64%),
+    linear-gradient(to right, var(--hero-side) 0%, transparent 68%);
+}
+[dir="rtl"] .hero-veil {
+  background:
+    linear-gradient(to top, var(--bg) 0%, var(--hero-mid) 26%, transparent 64%),
+    linear-gradient(to left, var(--hero-side) 0%, transparent 76%);
+}
+.hero-inner { position: relative; z-index: 2; padding-block: clamp(3rem, 9vh, 6rem); }
+.hero-kicker { display: flex; flex-wrap: wrap; gap: .45rem; margin-bottom: 1.1rem; }
+.hero h1 { font-size: var(--step-4); max-width: 20ch; letter-spacing: -.015em; }
+.hero h1 em { font-style: normal; color: var(--accent-ink); }
+.hero-sub { max-width: 58ch; color: var(--muted); font-size: var(--step-1); margin-top: 1.1rem; }
+.hero-ctas { display: flex; flex-wrap: wrap; gap: .7rem; margin-top: 1.7rem; }
+.trustbar { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 2.2rem; }
+.tip-line { margin-top: 1.1rem; font-size: .84rem; color: var(--muted); font-style: italic; }
+.hero-legend { position: absolute; z-index: 2; inset-block-end: 1rem; inset-inline-end: 1rem; font-size: .7rem; color: var(--muted); }
+.hero-aside {
+  position: absolute; z-index: 2; inset-block-start: 50%; translate: 0 -50%;
+  inset-inline-end: clamp(1.2rem, 4vw, 3.4rem); width: min(320px, 26vw);
+  padding: 1.1rem 1.2rem; border-radius: var(--r-lg);
+  background: var(--glass-bg); border: 1px solid var(--glass-brd); box-shadow: var(--shadow-2);
+  backdrop-filter: blur(16px) saturate(1.3); -webkit-backdrop-filter: blur(16px) saturate(1.3);
+}
+.hero-aside dl { margin: .7rem 0 0; display: grid; gap: .55rem; }
+.hero-aside dt { font-size: .68rem; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+html[lang="ar"] .hero-aside dt { letter-spacing: 0; text-transform: none; }
+.hero-aside dd { margin: .1rem 0 0; font-size: .9rem; font-weight: 600; }
+.hero-aside .note { margin: .8rem 0 0; }
+@media (max-width: 1180px) { .hero-aside { display: none; } }
+
+/* magnetic labelled cursor */
+.cursor {
+  position: fixed; z-index: 300; inset-block-start: 0; inset-inline-start: 0;
+  width: 26px; height: 26px; border-radius: 999px; pointer-events: none;
+  border: 1.5px solid var(--accent); background: var(--accent-soft); color: var(--accent-ink);
+  backdrop-filter: blur(3px); display: grid; place-items: center;
+  transform: translate3d(-100px, -100px, 0);
+  transition: width .3s var(--ease), height .3s var(--ease), opacity .3s var(--ease), background-color .3s var(--ease);
+  opacity: 0;
+}
+.cursor.on { opacity: 1; }
+.cursor .cursor-label {
+  position: absolute; inset-block-start: 120%; inset-inline-start: 50%; translate: -50% 0;
+  font-size: .68rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; white-space: nowrap;
+  color: var(--text); background: var(--glass-bg); border: 1px solid var(--glass-brd); border-radius: 999px; padding: .12rem .5rem;
+}
+@media (pointer: coarse), (prefers-reduced-motion: reduce) { .cursor { display: none !important; } }
+
+/* ============================================================
+   6. REVEALS (§5) — 0.9s, 90ms stagger, collapsed under reduced motion
+   ============================================================ */
+.reveal {
+  opacity: 0; transform: translateY(16px);
+  transition: opacity var(--dur) var(--ease), transform var(--dur) var(--ease);
+  transition-delay: var(--d, 0ms);
+}
+.reveal.in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
+  .card, .btn, .dock, .icon-btn, .swatch, body { transition: none !important; }
+}
+
+/* ============================================================
+   7. EXPERIENCE / TILT / MATCHER
+   ============================================================ */
+.tilt-wrap { perspective: 1100px; }
+.tilt {
+  transform-style: preserve-3d;
+  transition: transform .5s var(--ease), border-color .4s var(--ease), box-shadow .4s var(--ease);
+  will-change: transform;
+}
+.tilt .tilt-media { border-radius: 14px; overflow: hidden; margin-bottom: 1rem; }
+.tilt img { aspect-ratio: 4/3; width: 100%; object-fit: cover; transition: transform .9s var(--ease); }
+.tilt:hover img { transform: scale(1.04); }
+.matcher { display: grid; grid-template-columns: 1.15fr .85fr; gap: 1.2rem; align-items: start; }
+@media (max-width: 900px) { .matcher { grid-template-columns: minmax(0, 1fr); } }
+.q-block { padding-block: .5rem; }
+.q-label { font-weight: 650; margin-bottom: .6rem; }
+.opts { display: flex; flex-wrap: wrap; gap: .5rem; }
+.opt {
+  padding: .6rem 1rem; border-radius: 999px; cursor: pointer; font: inherit; font-size: .88rem; font-weight: 600;
+  background: transparent; color: var(--text); border: 1px solid var(--rule);
+  transition: background-color .3s var(--ease), border-color .3s var(--ease), color .3s var(--ease), transform .3s var(--ease);
+}
+.opt:hover { border-color: var(--accent); transform: translateY(-2px); }
+.opt[aria-pressed="true"] { background: var(--accent-solid); color: var(--on-accent); border-color: var(--accent-solid); }
+.progress { height: 6px; border-radius: 99px; background: var(--rule); overflow: hidden; margin-block: .4rem 1rem; }
+.progress i { display: block; height: 100%; width: 0; background: var(--accent); transition: width .5s var(--ease); }
+
+/* ============================================================
+   8. MENU BOARD — tabs, panels, dotted leaders, sticky figure
+   ============================================================ */
+.menu-grid { display: grid; grid-template-columns: 1.35fr .65fr; gap: clamp(1.2rem, 3vw, 2.4rem); align-items: start; }
+@media (max-width: 980px) { .menu-grid { grid-template-columns: minmax(0, 1fr); } }
+.tablist { display: flex; gap: .4rem; flex-wrap: wrap; margin-bottom: 1.2rem; }
+.tab {
+  padding: .55rem 1rem; border-radius: 999px; cursor: pointer; font: inherit; font-size: .86rem; font-weight: 650;
+  background: transparent; color: var(--text); border: 1px solid var(--rule);
+  transition: background-color .3s var(--ease), color .3s var(--ease), border-color .3s var(--ease);
+}
+.tab:hover { border-color: var(--accent); }
+.tab[aria-selected="true"] { background: var(--accent-solid); color: var(--on-accent); border-color: var(--accent-solid); }
+.mlist { list-style: none; margin: 0; padding: 0; }
+.mitem { padding-block: .85rem; border-bottom: 1px solid var(--rule); }
+.mrow { display: flex; align-items: baseline; gap: .55rem; }
+.mname { font-family: var(--font-display); font-size: 1.06rem; font-weight: 600; }
+.mlead { flex: 1 1 auto; min-width: 1.5rem; border-bottom: 1px dotted var(--muted); transform: translateY(-.28em); }
+.mprice { font-variant-numeric: tabular-nums; font-weight: 700; white-space: nowrap; }
+.mdesc { color: var(--muted); font-size: .88rem; margin: .3rem 0 0; max-width: 66ch; }
+.mchips { display: flex; gap: .3rem; margin-top: .45rem; flex-wrap: wrap; }
+.mchip { font-size: .68rem; font-weight: 800; letter-spacing: .06em; padding: .16rem .42rem; border-radius: 6px;
+  background: var(--accent-soft); border: 1px solid var(--glass-brd); color: var(--accent-ink); }
+.legend { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-top: 1rem; }
+.legend button { cursor: pointer; font: inherit; font-size: .78rem; font-weight: 700; padding: .3rem .6rem; border-radius: 8px;
+  background: transparent; border: 1px dashed var(--rule); color: var(--muted);
+  transition: background-color .3s var(--ease), border-color .3s var(--ease), color .3s var(--ease); }
+.legend button:hover { border-color: var(--accent); color: var(--accent-ink); }
+.legend button[aria-pressed="true"] { background: var(--accent-soft); border-style: solid; border-color: var(--accent); color: var(--accent-ink); }
+.frame-note {
+  display: flex; gap: .6rem; align-items: flex-start; margin-top: 1.2rem; padding: .8rem 1rem;
+  border-radius: var(--r-md); background: var(--accent-soft); border: 1px solid var(--glass-brd); font-size: .84rem;
+}
+.menu-figure { position: sticky; inset-block-start: 92px; }
+@media (max-width: 980px) { .menu-figure { position: static; inset-block-start: auto; } }
+.fig-stack { position: relative; border-radius: var(--r-lg); overflow: hidden; border: 1px solid var(--rule); background: var(--card); aspect-ratio: 4/5; }
+.fig-stack img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
+  opacity: 0; transition: opacity .7s var(--ease); }
+.fig-stack img.on { opacity: 1; }
+.fig-cap { font-size: .8rem; color: var(--muted); margin-top: .6rem; }
+.prov { margin-top: 1.4rem; }
+.prov ul { list-style: none; margin: .5rem 0 0; padding: 0; display: grid; gap: .45rem; }
+.prov li { display: flex; justify-content: space-between; gap: 1rem; font-size: .84rem; border-bottom: 1px solid var(--rule); padding-bottom: .4rem; }
+.prov b { font-weight: 650; }
+
+/* ============================================================
+   9. VIEW BAND
+   ============================================================ */
+.band { position: relative; min-height: clamp(420px, 62vh, 660px); display: grid; align-items: end; overflow: clip; padding-block: 0; }
+.band-media { position: absolute; inset: 0; z-index: 0; overflow: hidden; }
+.band-media img { width: 100%; height: 100%; object-fit: cover; transform: scale(1.02); }
+.band-media img.kb { animation: kb 26s var(--ease) infinite alternate; }
+@keyframes kb { from { transform: scale(1.02) translate3d(0,0,0); } to { transform: scale(1.12) translate3d(0,-1.5%,0); } }
+@media (prefers-reduced-motion: reduce) { .band-media img.kb { animation: none; transform: scale(1.02); } }
+.band-scrim { position: absolute; inset: 0; z-index: 1;
+  background: linear-gradient(to top, rgba(7,12,18,.92) 4%, rgba(7,12,18,.45) 45%, rgba(7,12,18,.15) 100%); }
+.band-inner { position: relative; z-index: 2; color: #F5F1E8; padding-block: clamp(2.4rem, 6vw, 4rem); }
+.band-inner h2 { font-size: var(--step-3); max-width: 24ch; }
+.band-inner p { color: rgba(245,241,232,.82); max-width: 56ch; }
+.band-ctas { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.2rem; }
+.band .btn-ghost { color: #F5F1E8; border-color: rgba(245,241,232,.4); }
+.band .btn-ghost:hover { border-color: var(--accent-ink); color: var(--accent-ink); }
+
+/* ============================================================
+   10. BOOKING PORTAL
+   ============================================================ */
+.book-grid { display: grid; grid-template-columns: 1.25fr .75fr; gap: clamp(1.2rem, 3vw, 2rem); align-items: start; }
+@media (max-width: 980px) { .book-grid { grid-template-columns: minmax(0, 1fr); } }
+fieldset { border: 0; padding: 0; margin: 0 0 1.4rem; }
+legend { font-family: var(--font-display); font-size: 1.1rem; font-weight: 600; padding: 0 0 .6rem; }
+.stepline { display: flex; align-items: center; gap: .6rem; margin-bottom: 1rem; font-size: .8rem; color: var(--muted); }
+.stepline b { color: var(--text); }
+.field { margin-bottom: .95rem; }
+.field > label, .field > .flab { display: block; font-size: .82rem; font-weight: 650; margin-bottom: .35rem; }
+.control {
+  width: 100%; padding: .68rem .8rem; border-radius: 12px; font: inherit; font-size: .92rem;
+  background: var(--bg); color: var(--text); border: 1px solid var(--rule);
+  transition: border-color .3s var(--ease), background-color .3s var(--ease);
+}
+.control:hover { border-color: var(--accent); }
+select.control { cursor: pointer; }
+textarea.control { min-height: 84px; resize: vertical; }
+.control[aria-invalid="true"] { border-color: var(--accent-solid); box-shadow: 0 0 0 3px var(--accent-soft); }
+.control[disabled], .control:disabled { opacity: .55; cursor: not-allowed; }
+.err { color: var(--accent-ink); font-size: .78rem; margin-top: .3rem; font-weight: 600; }
+.slots { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .4rem; }
+.slot {
+  padding: .5rem .75rem; border-radius: 10px; cursor: pointer; font: inherit; font-size: .82rem; font-weight: 650;
+  background: transparent; color: var(--text); border: 1px solid var(--rule); font-variant-numeric: tabular-nums;
+  transition: background-color .28s var(--ease), border-color .28s var(--ease), color .28s var(--ease);
+}
+.slot:hover:not(:disabled) { border-color: var(--accent); }
+.slot[aria-pressed="true"] { background: var(--accent-solid); color: var(--on-accent); border-color: var(--accent-solid); }
+/* Disabled-by-design: struck through AND announced, never colour-only */
+.slot:disabled { opacity: .6; cursor: not-allowed; text-decoration: line-through; text-decoration-thickness: 2px;
+  border-style: dashed; }
+.slot-dayoff { opacity: .6; cursor: not-allowed; text-decoration: line-through; text-decoration-thickness: 2px; border-style: dashed; }
+.slot-hint { font-size: .8rem; color: var(--muted); margin-top: .5rem; }
+.summary { position: sticky; inset-block-start: 92px; }
+@media (max-width: 980px) { .summary { position: static; } }
+.sum-rows { list-style: none; margin: 0 0 1rem; padding: 0; }
+.sum-rows li { display: flex; justify-content: space-between; gap: .8rem; padding-block: .42rem; border-bottom: 1px solid var(--rule); font-size: .88rem; }
+.sum-rows span:last-child { font-weight: 650; text-align: end; }
+.sum-rows span:first-child { color: var(--muted); }
+.pill-live { display: inline-flex; align-items: center; gap: .4rem; font-size: .74rem; font-weight: 700; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--accent-ink); }
+.pill-live::before { content: ""; width: .45rem; height: .45rem; border-radius: 50%; background: var(--accent);
+  box-shadow: 0 0 0 4px var(--accent-soft); }
+.route-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .6rem; }
+@media (max-width: 980px) { .route-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 620px) { .route-grid { grid-template-columns: minmax(0, 1fr); } }
+.route {
+  text-align: start; padding: .85rem 1rem; border-radius: var(--r-md); cursor: pointer; font: inherit;
+  background: var(--bg); color: var(--text); border: 1px solid var(--rule);
+  transition: border-color .3s var(--ease), transform .3s var(--ease), background-color .3s var(--ease);
+}
+.route:hover { border-color: var(--accent); transform: translateY(-2px); }
+.route b { display: block; font-family: var(--font-display); font-size: 1rem; }
+.route small { color: var(--muted); font-size: .78rem; }
+.confirm-mark { width: 54px; height: 54px; border-radius: 50%; display: grid; place-items: center;
+  background: var(--accent-soft); border: 1px solid var(--accent); color: var(--accent-ink); margin-bottom: .8rem; }
+
+/* ============================================================
+   11. TRUST WALL / REVIEWS / FAQ / FOOTER
+   ============================================================ */
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; }
+@media (max-width: 820px) { .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.stat { text-align: center; padding: 1.2rem .8rem; }
+.stat .num { font-family: var(--font-display); font-size: clamp(1.9rem, 4.4vw, 2.9rem); font-weight: 700;
+  color: var(--accent-ink); font-variant-numeric: tabular-nums; line-height: 1; }
+.stat .lab { font-size: .78rem; color: var(--muted); margin-top: .45rem; letter-spacing: .04em; }
+.reviews { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+@media (max-width: 900px) { .reviews { grid-template-columns: minmax(0, 1fr); } }
+.review { display: flex; flex-direction: column; gap: .6rem; }
+.stars { color: var(--accent-ink); letter-spacing: .18em; font-size: .95rem; }
+.review blockquote { margin: 0; font-family: var(--font-display); font-size: 1.05rem; line-height: 1.5; }
+.review footer { margin-top: auto; font-size: .8rem; color: var(--muted); }
+.faq { display: grid; gap: .6rem; }
+details.q { background: var(--card); border: 1px solid var(--rule); border-radius: var(--r-md); padding: .2rem .2rem; }
+details.q summary {
+  cursor: pointer; list-style: none; padding: .95rem 1.1rem; font-weight: 650; font-size: .98rem;
+  display: flex; align-items: center; gap: .7rem; border-radius: var(--r-md);
+}
+details.q summary::-webkit-details-marker { display: none; }
+details.q summary::after { content: "+"; margin-inline-start: auto; font-size: 1.4rem; line-height: 1; color: var(--accent-ink); }
+details.q[open] summary::after { content: "–"; }
+details.q .a { padding: 0 1.1rem 1.1rem; color: var(--muted); font-size: .93rem; }
+details.q[open] { border-color: var(--accent); }
+.final-cta { border-radius: var(--r-xl); padding: clamp(1.4rem, 4vw, 3rem); background: var(--card);
+  border: 1px solid var(--rule); box-shadow: var(--shadow-2); }
+.foot { padding-block: 2.4rem 8rem; border-top: 1px solid var(--rule); }
+.foot-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 1.6rem; }
+@media (max-width: 820px) { .foot-grid { grid-template-columns: minmax(0, 1fr); } }
+.foot h3 { font-size: 1rem; font-family: var(--font-body); font-weight: 700; letter-spacing: .1em; text-transform: uppercase; margin-bottom: .6rem; }
+html[lang="ar"] .foot h3 { letter-spacing: 0; text-transform: none; }
+.foot ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .4rem; font-size: .88rem; color: var(--muted); }
+.foot a { color: var(--muted); }
+.foot a:hover { color: var(--accent-ink); }
+
+/* ============================================================
+   12. MOBILE ACTION BAR + TIP MODAL + LIVE REGION
+   ============================================================ */
+.mbar {
+  position: fixed; z-index: 120; inset-inline: 0; inset-block-end: 0; display: none;
+  gap: .5rem; padding: .6rem .7rem calc(.6rem + env(safe-area-inset-bottom));
+  background: var(--glass-bg); border-top: 1px solid var(--glass-brd);
+  backdrop-filter: blur(16px) saturate(1.3); -webkit-backdrop-filter: blur(16px) saturate(1.3);
+}
+.mbar .btn { flex: 1 1 0; --btn-pad: .7rem .5rem; font-size: .85rem; }
+@media (max-width: 860px) { .mbar { display: flex; } }
+.modal-back { position: fixed; inset: 0; z-index: 200; display: grid; place-items: center; padding: 1rem;
+  background: rgba(4,7,11,.68); backdrop-filter: blur(6px); }
+.modal { width: min(520px, 100%); max-height: 86vh; overflow: auto; background: var(--card); color: var(--text);
+  border: 1px solid var(--rule); border-radius: var(--r-lg); padding: 1.4rem; box-shadow: var(--shadow-2); }
+.modal-head { display: flex; align-items: flex-start; gap: 1rem; margin-bottom: .8rem; }
+.modal-head h2 { font-size: 1.35rem; margin: 0; }
+.tip-amounts { display: flex; flex-wrap: wrap; gap: .5rem; margin-block: .5rem 1rem; }
+.tipx { padding: .6rem 1rem; border-radius: 12px; cursor: pointer; font: inherit; font-weight: 700;
+  background: transparent; color: var(--text); border: 1px solid var(--rule); font-variant-numeric: tabular-nums;
+  transition: border-color .3s var(--ease), background-color .3s var(--ease), color .3s var(--ease); }
+.tipx:hover { border-color: var(--accent); }
+.tipx[aria-pressed="true"] { background: var(--accent-solid); color: var(--on-accent); border-color: var(--accent-solid); }
+.live { position: fixed; inset-block-end: 1.15rem; inset-inline-start: 50%; translate: -50% 0; z-index: 150;
+  max-width: min(92vw, 620px); text-align: center; background: var(--accent-solid); color: var(--on-accent);
+  padding: .7rem 1.1rem; border-radius: 999px; font-size: .86rem; font-weight: 650; box-shadow: var(--shadow-2);
+  opacity: 0; pointer-events: none; transition: opacity .3s var(--ease), transform .3s var(--ease); }
+.live.on { opacity: 1; }
+.pill-note { display: inline-block; font-size: .7rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--accent-ink); border: 1px dashed var(--accent); border-radius: 6px; padding: .1rem .34rem; }
+.demo-strip { background: var(--accent-soft); border-bottom: 1px solid var(--glass-brd); font-size: .78rem;
+  padding: .45rem 0; text-align: center; color: var(--text); }
+.demo-strip a { color: var(--accent-ink); font-weight: 650; }
+@media (max-width: 860px) {
+  .live { font-size: .78rem; padding: .55rem .85rem; border-radius: 16px; max-width: 88vw; inset-block-end: 5.2rem; }
+}
+@media (prefers-reduced-motion: reduce) { .live { transition: none; } }
+</style>
+</head>
+<body>
+<a class="skip" href="#main" id="skiplink" data-i18n="skip">Skip to content</a>
+
+<div class="demo-strip" role="note">
+  <span data-i18n="demo1">Prototype for review — every verified public fact is cited in the pitch appendix; anything marked</span>
+  <span class="pill-note">PLACEHOLDER</span>
+  <span data-i18n="demo2">is illustrative and awaits the client's confirmation.</span>
+</div>
+
+<header class="site-head">
+  <div class="wrap head-row">
+    <a class="brand" href="#top" aria-label="Bonnie Burgers — home">
+      <span class="brand-mark" aria-hidden="true">BB</span>
+      <span>
+        <span class="brand-name">Bonnie Burgers <span class="arb" lang="ar" dir="rtl">حلال</span></span>
+        <span class="brand-sub" data-i18n="brandSub">Mayfield Road · Edinburgh EH9</span>
+      </span>
+    </a>
+    <nav class="nav-links" aria-label="Primary" id="navlinks">
+      <a href="#experience" data-i18n="navExp">The food</a>
+      <a href="#menu" data-i18n="navMenu">Menu board</a>
+      <a href="#view" data-i18n="navView">The vantage</a>
+      <a href="#trust" data-i18n="navTrust">Proof</a>
+      <a href="#faq" data-i18n="navFaq">Questions</a>
+    </nav>
+    <!-- FLOATING GLASS DOCK: theme toggle · 4 accent swatches · language select -->
+    <div class="dock" role="group" aria-label="Appearance and language" id="dock">
+      <div class="dock-group">
+        <button class="icon-btn" id="themeBtn" type="button" aria-pressed="true" data-i18n-aria="themeToggle" aria-label="Switch to light theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+            <circle cx="12" cy="12" r="4.2"></circle><path d="M12 2.4v2.6M12 19v2.6M2.4 12H5M19 12h2.6M5.2 5.2l1.9 1.9M16.9 16.9l1.9 1.9M18.8 5.2l-1.9 1.9M7.1 16.9l-1.9 1.9"></path>
+          </svg>
+        </button>
+      </div>
+      <span class="dock-sep" aria-hidden="true"></span>
+      <div class="dock-group" role="group" aria-label="Ambiance accent" id="swatches">
+        <button class="swatch" type="button" data-accent-set="gold" aria-pressed="true" style="--sw:#D4AF37" aria-label="Executive Gold"></button>
+        <button class="swatch" type="button" data-accent-set="emerald" aria-pressed="false" style="--sw:#059669" aria-label="Emerald"></button>
+        <button class="swatch" type="button" data-accent-set="cobalt" aria-pressed="false" style="--sw:#1E40AF" aria-label="Royal Cobalt"></button>
+        <button class="swatch" type="button" data-accent-set="rose" aria-pressed="false" style="--sw:#E11D48" aria-label="Velvet Rose"></button>
+      </div>
+      <span class="dock-sep" aria-hidden="true"></span>
+      <div class="dock-group">
+        <label class="sr" for="langSelect" data-i18n="langLabel">Language</label>
+        <select class="lang-select" id="langSelect" title="Production ships 100+ locales — six more are staged here">
+          <option value="en" lang="en">English</option>
+          <option value="ar" lang="ar">العربية</option>
+          <option value="fr" lang="fr" disabled>Français</option>
+          <option value="es" lang="es" disabled>Español</option>
+          <option value="de" lang="de" disabled>Deutsch</option>
+          <option value="ur" lang="ur" dir="rtl" disabled>اردو</option>
+          <option value="tr" lang="tr" disabled>Türkçe</option>
+          <option value="zh" lang="zh" disabled>中文</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <!-- ===================== A. HERO ===================== -->
+  <section class="hero" id="top" aria-labelledby="heroTitle">
+    <div class="hero-bg" id="heroBg" aria-hidden="true">
+      <canvas id="gl" hidden></canvas>
+      <canvas id="gl2d" hidden></canvas>
+      <img id="heroStill" src="img/04-feast-box-dusk.jpg" width="1408" height="768" fetchpriority="high" alt="The evening spread at Bonnie Burgers: toasted Philly sub rolls, a tray of loaded fries and fried chicken tenders on a dark table beside a window at dusk.">
+    </div>
+    <div class="hero-veil" aria-hidden="true"></div>
+    <div class="wrap hero-inner">
+      <div class="hero-kicker reveal" style="--d:0ms">
+        <span class="chip"><span class="dot"></span><span data-i18n="chipHalal">Halal kitchen</span></span>
+        <span class="chip"><span data-i18n="chipAddr">61 Mayfield Road · EH9 3AA</span></span>
+        <span class="chip"><span data-i18n="chipRating">4.1 ★ · 79 Google reviews</span></span>
+      </div>
+      <h1 class="display reveal" id="heroTitle" style="--d:90ms" data-i18n-html="h1">
+        The smash burger south Edinburgh actually queues for.
+      </h1>
+      <p class="hero-sub reveal" style="--d:180ms" data-i18n="heroSub">
+        Halal kitchen on Mayfield Road, Blackford — smashed to order, wrapped hot. Minutes from the King's Buildings,
+        the Hermitage and the top of Blackford Hill, and the south-side answer for Marchmont, Newington and Morningside.
+      </p>
+      <div class="hero-ctas reveal" style="--d:270ms">
+        <a class="btn" href="#book" data-cursor="Reserve" data-i18n="ctaReserve">Reserve a table</a>
+        <a class="btn btn-glass" href="#menu" data-cursor="Menu" data-i18n="ctaExplore">Explore the menu</a>
+      </div>
+      <p class="tip-line reveal" style="--d:360ms" data-i18n="tipHero">
+        Entirely optional, never expected — every penny of a tip goes to the floor team.
+      </p>
+      <div class="trustbar reveal" id="trustbar" style="--d:450ms"></div>
+    </div>
+    <aside class="hero-aside reveal" style="--d:540ms" aria-label="Verified at a glance">
+      <span class="pill-live" data-i18n="asideKicker">Checked against the public record</span>
+      <dl>
+        <div><dt data-i18n="asideRating">Google rating</dt><dd class="latn" lang="en" dir="ltr">4.1 ★ · 79</dd></div>
+        <div><dt data-i18n="asideHours">Kitchen service</dt><dd class="latn" lang="en" dir="ltr">17:10–21:50</dd></div>
+        <div><dt data-i18n="asideClosed">No service</dt><dd data-i18n="asideClosedV">Tuesdays — and no daytime slots until the kitchen confirms</dd></div>
+        <div><dt data-i18n="asideWalk">Uphill from the door</dt><dd data-i18n="asideWalkV">≈ 9 minutes to Blackford Hill and the Royal Observatory</dd></div>
+      </dl>
+      <p class="note" data-i18n="asideNote">PLACEHOLDER: weekday lunchtimes remain unverified — the page says so rather than guessing.</p>
+    </aside>
+    <p class="hero-legend" data-i18n="heroLegend">Live light — drag your cursor</p>
+  </section>
+
+  <!-- ===================== B. EXPERIENCE ===================== -->
+  <section id="experience" aria-labelledby="expTitle">
+    <div class="wrap">
+      <p class="eyebrow reveal" data-i18n="expKicker">Three ways to eat here</p>
+      <h2 class="display reveal" id="expTitle" style="font-size:var(--step-3);--d:90ms" data-i18n="expTitle">
+        Smashed, stacked, fried — and made to order
+      </h2>
+      <p class="lede reveal" style="--d:180ms" data-i18n="expSub">
+        Everything is cooked when you order it. Pick the shape of your evening and we will pre-fill the booking.
+      </p>
+      <div class="grid g3 tilt-wrap" id="tiltCards" style="margin-top:2rem"></div>
+
+      <hr class="rule">
+      <div class="matcher reveal">
+        <div class="card" id="matcherCard">
+          <div class="stepline">
+            <span class="pill-live" data-i18n="livePicker">Live picker</span>
+            <span id="matcherStep">Question 1 of 3</span>
+          </div>
+          <div class="progress" aria-hidden="true"><i id="matcherBar"></i></div>
+          <div id="matcherBody"></div>
+        </div>
+        <div class="card" id="matcherOut">
+          <p class="eyebrow" data-i18n="matcherOutKicker">Your match</p>
+          <h3 class="display" style="font-size:1.35rem" id="matchName" data-i18n="matcherIdle">Nothing picked yet</h3>
+          <p class="muted" id="matchCopy" data-i18n="matcherIdleCopy">Answer three questions and this panel names your order — then carries it into the booking form.</p>
+          <ul class="sum-rows" id="matchRows" hidden></ul>
+          <button class="btn" id="matcherFill" type="button" hidden data-i18n="matcherFill">Carry this into my booking</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== B2. SECTOR MENU BOARD ===================== -->
+  <section id="menu" class="section-alt" aria-labelledby="menuTitle">
+    <div class="wrap">
+      <p class="eyebrow reveal" data-i18n="menuKicker">The board · indicative</p>
+      <h2 class="display reveal" id="menuTitle" style="font-size:var(--step-3);--d:90ms" data-i18n="menuTitle">What the counter is running today</h2>
+      <p class="lede reveal" style="--d:180ms" data-i18n="menuSub">
+        Tabs follow the sections we actually cook: smash burgers, Philly and wraps, wings and loaded fries, shakes and drinks,
+        and the crowd trays. Prices are the published ones.
+      </p>
+
+      <div class="menu-grid" style="margin-top:2rem">
+        <div>
+          <div class="tablist" role="tablist" id="tablist" aria-label="Menu sections"></div>
+          <div id="panels"></div>
+          <div class="legend" id="legend" role="group" aria-label="Dietary filter"></div>
+          <p class="frame-note reveal" id="frameNote">
+            <span aria-hidden="true">✦</span>
+            <span data-i18n="frameNote">Indicative — the kitchen writes the final one each morning.</span>
+          </p>
+          <div class="prov reveal">
+            <p class="eyebrow" data-i18n="provKicker">Within the mile</p>
+            <ul id="provList"></ul>
+            <p class="note" id="provNote" data-i18n="provNote">Named local suppliers: PLACEHOLDER — to be confirmed with the kitchen. Distances are approximate straight-line walks.</p>
+          </div>
+        </div>
+        <figure class="menu-figure reveal" style="margin:0">
+          <div class="fig-stack" id="figStack"></div>
+          <figcaption class="fig-cap" id="figCap"></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== C. VIEW BAND ===================== -->
+  <section class="band" id="view" aria-labelledby="viewTitle">
+    <div class="band-media" aria-hidden="false">
+      <img id="viewImg" src="img/05-the-vantage.jpg" width="1376" height="768" loading="lazy"
+           alt="Golden-hour view north from the Mayfield and Blackford rooftops: Victorian stone tenements and chimney pots in the foreground, with the green summit of Arthur's Seat and the cliff band of the Salisbury Crags beyond.">
+    </div>
+    <div class="band-scrim" aria-hidden="true"></div>
+    <div class="wrap band-inner">
+      <p class="eyebrow reveal" style="color:var(--accent-ink)" data-i18n="viewKicker">The vantage</p>
+      <h2 class="display reveal" id="viewTitle" style="--d:90ms" data-i18n="viewTitle">
+        Walk nine minutes up from the counter and the whole city falls away north.
+      </h2>
+      <p class="reveal" style="--d:180ms" data-i18n="viewCopy">
+        Blackford Hill and the Royal Observatory sit at the top of Observatory Road, with the Hermitage of Braid behind them.
+        From the summit the rooftops below give onto Arthur's Seat and the Salisbury Crags — the vantage this page is named for.
+      </p>
+      <div class="band-ctas reveal" style="--d:270ms">
+        <a class="btn" href="#book" data-cursor="Reserve" data-i18n="ctaReserve">Reserve a table</a>
+        <a class="btn btn-ghost" href="#gift" data-cursor="Gift" data-i18n="ctaGift">Gift voucher</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== D. BOOKING PORTAL ===================== -->
+  <section id="book" aria-labelledby="bookTitle">
+    <div class="wrap">
+      <p class="eyebrow reveal" data-i18n="bookKicker">Twenty seconds, no card</p>
+      <h2 class="display reveal" id="bookTitle" style="font-size:var(--step-3);--d:90ms" data-i18n="bookTitle">Hold your slot</h2>
+      <p class="lede reveal" style="--d:180ms" data-i18n="bookSub">
+        No card, no deposit for tables. Pick a day, a time and how you are eating; the summary on the right keeps up as you go.
+      </p>
+
+      <div class="book-grid" style="margin-top:2rem">
+        <!-- STEP 1 + STEP 2 -->
+        <div class="card reveal" id="bookCard">
+          <form id="bookForm" novalidate>
+            <fieldset id="step1">
+              <legend data-i18n="step1Legend">1 · The slot</legend>
+              <div class="grid g2">
+                <div class="field">
+                  <label for="bDate" data-i18n="fDate">Date</label>
+                  <input class="control" type="date" id="bDate" name="date" aria-describedby="eDate" required>
+                  <p class="err" id="eDate" hidden></p>
+                </div>
+                <div class="field">
+                  <label for="bParty" data-i18n="fParty">Party size</label>
+                  <select class="control" id="bParty" name="party" required>
+                    <option value="1">1</option><option value="2" selected>2</option><option value="3">3</option>
+                    <option value="4">4</option><option value="5">5</option><option value="6">6</option>
+                    <option value="8">8</option><option value="10">10</option><option value="12">12</option>
+                    <option value="crowd">12+ · crowd order</option>
+                  </select>
+                </div>
+              </div>
+              <div class="field">
+                <span class="flab" id="fModeLab" data-i18n="fMode">How are you eating?</span>
+                <div class="opts" role="group" aria-labelledby="fModeLab" id="modeOpts"></div>
+              </div>
+              <div class="field">
+                <span class="flab" id="fTimeLab" data-i18n="fTime">Time</span>
+                <div class="slots" role="group" aria-labelledby="fTimeLab" id="slotWrap" tabindex="-1" aria-describedby="eTime"></div>
+                <p class="err" id="eTime" hidden></p>
+                <p class="slot-hint" id="slotHint"></p>
+              </div>
+            </fieldset>
+
+            <fieldset id="step2">
+              <legend data-i18n="step2Legend">2 · Anything we should know</legend>
+              <div class="grid g2">
+                <div class="field">
+                  <label for="bName" data-i18n="fName">Name</label>
+                  <input class="control" type="text" id="bName" name="name" autocomplete="name" aria-describedby="eName" required>
+                  <p class="err" id="eName" hidden></p>
+                </div>
+                <div class="field">
+                  <label for="bPhone" data-i18n="fPhone">Mobile</label>
+                  <input class="control" type="tel" id="bPhone" name="phone" autocomplete="tel" inputmode="tel" aria-describedby="ePhone" required>
+                  <p class="err" id="ePhone" hidden></p>
+                </div>
+              </div>
+              <div class="grid g2">
+                <div class="field">
+                  <label for="bDiet" data-i18n="fDiet">Dietary needs</label>
+                  <select class="control" id="bDiet" name="diet">
+                    <option value="none" data-i18n="dietNone">None</option>
+                    <option value="veg" data-i18n="dietVeg">Vegetarian (V)</option>
+                    <option value="vegan" data-i18n="dietVegan">Vegan (VG)</option>
+                    <option value="gf" data-i18n="dietGf">Gluten — please advise</option>
+                    <option value="allergy" data-i18n="dietAllergy">Allergy (we will call you)</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="bOccasion" data-i18n="fOccasion">Celebration</label>
+                  <select class="control" id="bOccasion" name="occasion">
+                    <option value="no" data-i18n="occNo">Just dinner</option>
+                    <option value="birthday" data-i18n="occBday">Birthday</option>
+                    <option value="grad" data-i18n="occGrad">Graduation</option>
+                    <option value="work" data-i18n="occWork">Team or office</option>
+                    <option value="other" data-i18n="occOther">Something else</option>
+                  </select>
+                </div>
+              </div>
+              <div class="field">
+                <span class="flab" id="fNeedsLab" data-i18n="fNeeds">Access &amp; comfort</span>
+                <div class="opts" role="group" aria-labelledby="fNeedsLab" id="needsOpts"></div>
+              </div>
+              <div class="field">
+                <label for="bRoute" data-i18n="fRoute">Crowd route (optional)</label>
+                <select class="control" id="bRoute" name="route"><option value="" data-i18n="routeNone">No route — just a table</option></select>
+              </div>
+              <div class="field">
+                <label for="bNotes" data-i18n="fNotes">Notes for the counter</label>
+                <textarea class="control" id="bNotes" name="notes" data-i18n-ph="notesPh" placeholder="Allergies, a highchair, a dog on the pavement table…"></textarea>
+              </div>
+            </fieldset>
+
+            <div style="display:flex;flex-wrap:wrap;gap:.6rem;align-items:center">
+              <button class="btn" type="submit" id="bookSubmit" data-i18n="bookSubmit">Confirm my slot</button>
+              <a class="btn btn-ghost btn-sm" href="tel:+441313744464" data-i18n="bookCall">Or call the counter</a>
+            </div>
+            <p class="note" style="margin-top:.8rem" data-i18n="bookFine">
+              We hold your details on this device only. A holding deposit may apply to crowd orders of 20 or more.
+            </p>
+            <p class="note" id="remembered" hidden></p>
+          </form>
+          <div id="confirmPane" hidden></div>
+        </div>
+
+        <!-- LIVE SUMMARY -->
+        <aside class="card summary reveal" aria-labelledby="sumTitle">
+          <h3 id="sumTitle" style="font-size:1.15rem;margin-bottom:.8rem" data-i18n="sumTitle">Your booking, live</h3>
+          <ul class="sum-rows" id="sumRows"></ul>
+          <div style="display:flex;flex-wrap:wrap;gap:.5rem">
+            <button class="btn btn-glass btn-sm" type="button" id="sumTip" data-i18n="sumTip">Thank the team</button>
+            <button class="btn btn-ghost btn-sm" type="button" id="sumReset" data-i18n="sumReset">Start again</button>
+          </div>
+          <p class="note" style="margin-top:.8rem" data-i18n="sumFine">
+            Times shown are the published service window, still being verified against the kitchen's own board.
+          </p>
+        </aside>
+      </div>
+
+      <!-- 9+ ROUTES TO CROWD EXPERIENCES -->
+      <div style="margin-top:clamp(1.6rem,4vw,3rem)">
+        <p class="eyebrow reveal" data-i18n="routesKicker">Nine routes to feeding a crowd</p>
+        <h3 class="display reveal" style="font-size:var(--step-2);--d:90ms" data-i18n="routesTitle">Nobody has to book a private room here</h3>
+        <p class="lede reveal" style="--d:180ms" data-i18n="routesSub">
+          There is no private dining room — this is a counter, and it has fed a lot of birthdays, society nights and Friday offices.
+          Choose a route and the booking fills itself in. Routes are examples: PLACEHOLDER until the kitchen confirms what it will run.
+        </p>
+        <div class="route-grid" id="routeGrid" style="margin-top:1.2rem"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== E. TRUST WALL ===================== -->
+  <section id="trust" class="section-alt" aria-labelledby="trustTitle">
+    <div class="wrap">
+      <p class="eyebrow reveal" data-i18n="trustKicker">Proof, honestly stated</p>
+      <h2 class="display reveal" id="trustTitle" style="font-size:var(--step-3);--d:90ms" data-i18n="trustTitle">
+        Seventy-nine reviews. We would rather earn the eightieth than buy one.
+      </h2>
+      <p class="lede reveal" style="--d:180ms" data-i18n="trustSub">
+        No inflated numbers, no stock faces. This is the public record as it stands today, including the parts that do not flatter us.
+      </p>
+      <div class="stats" id="stats" style="margin-top:2rem"></div>
+      <div class="reviews" id="reviewWall" style="margin-top:1.4rem"></div>
+    </div>
+  </section>
+
+  <!-- ===================== F. FAQ + FINAL CTA ===================== -->
+  <section id="faq" aria-labelledby="faqTitle">
+    <div class="wrap">
+      <p class="eyebrow reveal" data-i18n="faqKicker">Six things people ask</p>
+      <h2 class="display reveal" id="faqTitle" style="font-size:var(--step-3);--d:90ms" data-i18n="faqTitle">Answered before you call</h2>
+      <div class="faq" id="faqList" style="margin-top:1.6rem"></div>
+
+      <div class="final-cta reveal" id="gift" style="margin-top:clamp(1.8rem,4vw,3rem)">
+        <p class="eyebrow" data-i18n-html="finalKicker">The last word</p>
+        <h2 class="display" style="font-size:var(--step-3)" data-i18n="finalTitle">Two taps, and the table is yours.</h2>
+        <p class="lede" data-i18n="finalCopy">
+          Reserve in the portal above, or send a gift voucher to someone who needs a smash burger and a Biscoff shake.
+          If anything on this page disagrees with the kitchen's board, the board wins — and we will fix the page.
+        </p>
+        <div style="display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.2rem">
+          <a class="btn" href="#book" data-i18n="ctaReserve">Reserve a table</a>
+          <button class="btn btn-glass" type="button" id="giftBtn" data-i18n="ctaGift">Gift voucher</button>
+          <button class="btn btn-ghost" type="button" id="tipBtn2" data-i18n="sumTip">Thank the team</button>
+        </div>
+        <p class="tip-line" data-i18n="tipFinal">
+          Entirely optional, never expected — tips go straight to the floor team, not the house.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot" aria-labelledby="footTitle">
+  <div class="wrap">
+    <h2 class="sr" id="footTitle">Bonnie Burgers — address, hours and access</h2>
+    <div class="foot-grid">
+      <div>
+        <h3 data-i18n="footFind">Find us</h3>
+        <ul>
+          <li><b class="latn" lang="en">61 Mayfield Road, Edinburgh EH9 3AA</b></li>
+          <li><a class="latn" lang="en" href="tel:+441313744464">+44 131 374 4464</a></li>
+          <li><a href="https://maps.app.goo.gl/2urWwxMADRnEiogk7" target="_blank" rel="noopener" data-i18n="footMap">Open in Google Maps</a></li>
+          <li data-i18n="footAccess">Step-free threshold at the door; the counter and collection point are on the ground floor. Accessibility details marked PLACEHOLDER pending a site visit.</li>
+        </ul>
+      </div>
+      <div>
+        <h3 data-i18n="footHours">Hours</h3>
+        <ul id="footHoursList"></ul>
+        <li class="note" style="list-style:none" data-i18n="footHoursNote">
+          Sources disagree — FSA, Just Eat and Uber Eats list an evening service with Tuesday closed; the current site lists weekday lunchtimes. Confirm by phone.
+        </li>
+      </div>
+      <div>
+        <h3 data-i18n="footMore">Elsewhere</h3>
+        <ul>
+          <li><a href="https://bonnieburgers.co.uk/" target="_blank" rel="noopener" data-i18n="footSite">Current website</a></li>
+          <li><a href="https://www.just-eat.co.uk/restaurants-bonnie-burgers-edinburgh" target="_blank" rel="noopener" data-i18n="footJe">Just Eat</a></li>
+          <li><a href="https://deliveroo.co.uk/menu/Edinburgh/the-grange-and-blackford/bonnie-burgers-61-mayfield-road" target="_blank" rel="noopener" data-i18n="footDel">Deliveroo</a></li>
+          <li><a href="https://www.ubereats.com/gb/store/bonnie-burgers/dd3R9HIRSHiqw3Z0wjalMA" target="_blank" rel="noopener" data-i18n="footUe">Uber Eats</a></li>
+        </ul>
+        <p class="note" style="margin-top:.8rem" data-i18n="footTip">
+          Tips: optional, never expected, and paid straight to the floor team.
+        </p>
+        <p class="note" data-i18n="footProto">Prototype build · Next.js 14 production plan in README.md</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Mobile fixed action bar -->
+<div class="mbar" id="mbar" role="group" aria-label="Quick actions">
+  <a class="btn" href="#book" data-i18n="ctaReserve">Reserve a table</a>
+  <a class="btn btn-glass" href="tel:+441313744464" data-i18n="mbarCall">Call</a>
+  <button class="btn btn-ghost" type="button" id="tipBtn3" data-i18n="mbarTip">Tip</button>
+</div>
+
+<!-- Tip modal (focus-trapped, Esc restores) -->
+<div class="modal-back" id="tipModal" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="tipTitle">
+    <div class="modal-head">
+      <div>
+        <p class="eyebrow" style="margin-bottom:.2rem" data-i18n="sumTip">Thank the team</p>
+        <h2 id="tipTitle" data-i18n="tipTitle">Gratitude, never a toll</h2>
+      </div>
+      <button class="icon-btn" type="button" id="tipClose" aria-label="Close" style="margin-inline-start:auto">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+      </button>
+    </div>
+    <p class="muted" id="tipCopy" data-i18n="tipCopy">
+      Entirely optional, never expected. The full amount goes to the floor team, and no card details ever touch this site.
+    </p>
+    <div class="tip-amounts" role="group" aria-label="Tip amount" id="tipAmounts"></div>
+    <div class="field">
+      <label for="tipCustom" data-i18n="tipOther">Another amount</label>
+      <input class="control latn" type="number" id="tipCustom" min="1" max="200" step="1" inputmode="decimal" placeholder="£">
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:.5rem;align-items:center">
+      <button class="btn" type="button" id="tipPay" data-i18n="tipPay">Continue to PayPal</button>
+      <button class="btn btn-ghost btn-sm" type="button" id="tipLater" data-i18n="tipLater">Not today</button>
+    </div>
+    <p class="note" style="margin-top:.8rem" data-i18n="tipDemo">
+      Prototype: this button is wired to a simulated endpoint. In production it creates a PayPal Orders v2 order server-side and redirects to the approval link — no card data is ever handled by us.
+    </p>
+    <p class="note" id="tipLive" role="status" hidden></p>
+  </div>
+</div>
+
+<div class="live" id="live" role="status" aria-live="polite"></div>
+<div class="cursor" id="cursor" aria-hidden="true"><span class="cursor-label" id="cursorLabel"></span></div>
+<script>
+/* ===================================================================
+   BONNIE BURGERS — prototype application
+   Mirrors the production Next.js 14 structure (see README.md):
+   STR  ≈ /i18n/[locale].json      DATA ≈ /data/*.ts
+   render* ≈ components            booking ≈ /api/reserve route handler
+   =================================================================== */
+(function () {
+  'use strict';
+
+  /* --------------------------------------------------------------
+     SHARED STATE — declared before anything reads it (§6 no TDZ).
+     -------------------------------------------------------------- */
+  var BOOT = window.__BB_BOOT;
+  var STATE = {
+    lang: BOOT.lang,
+    theme: BOOT.theme,
+    accent: BOOT.accent,
+    tab: 'smash',
+    dietFilter: null,
+    match: null,
+    date: '', time: '', mode: 'collection', needs: [], tip: null,
+    hours: {}, slots: [],
+    heroMode: 'pending',
+    countersDone: false
+  };
+  window.__BB = { state: STATE, version: '1.0.0-prototype' };
+
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+  var L = function (pair) { return pair[STATE.lang] || pair.en; };
+
+  /* ===================================================================
+     1. STRINGS — full EN + AR. Production ships 100+ locales.
+     =================================================================== */
+  var STR = {
+    skip: { en: 'Skip to content', ar: 'تخطَّ إلى المحتوى' },
+    demo1: { en: 'Prototype for review — every verified public fact is cited in the pitch appendix; anything marked', ar: 'نموذج أولي للمراجعة — كل معلومة عامة موثّقة مُدرجة في ملحق العرض؛ وكل ما هو مُعلَّم بـ' },
+    demo2: { en: "is illustrative and awaits the client's confirmation.", ar: 'فهو توضيحي وينتظر تأكيد صاحب العمل.' },
+    brandSub: { en: 'Mayfield Road · Edinburgh EH9', ar: 'طريق مايفيلد · إدنبرة EH9' },
+    navExp: { en: 'The food', ar: 'الطعام' },
+    navMenu: { en: 'Menu board', ar: 'لوحة القائمة' },
+    navView: { en: 'The vantage', ar: 'الإطلالة' },
+    navTrust: { en: 'Proof', ar: 'الشهادات' },
+    navFaq: { en: 'Questions', ar: 'أسئلة' },
+    themeToggle: { en: 'Switch theme', ar: 'تبديل المظهر' },
+    langLabel: { en: 'Language', ar: 'اللغة' },
+    chipHalal: { en: 'Halal kitchen', ar: 'مطبخ حلال' },
+    chipAddr: { en: '61 Mayfield Road · EH9 3AA', ar: '61 طريق مايفيلد · EH9 3AA' },
+    chipRating: { en: '4.1 ★ · 79 Google reviews', ar: '٤٫١ ★ · ٧٩ تقييمًا على جوجل' },
+    h1: { en: 'The smash burger south Edinburgh <em>actually</em> queues for.', ar: 'سماش برغر <em>ينتظره</em> جنوب إدنبرة في الطابور.' },
+    heroSub: {
+      en: "Halal kitchen on Mayfield Road, Blackford — smashed to order, wrapped hot. Minutes from the King's Buildings, the Hermitage and the top of Blackford Hill, and the south-side answer for Marchmont, Newington and Morningside.",
+      ar: 'مطبخ حلال على طريق مايفيلد، بلاكفورد — يُسحق عند الطلب ويُلفّ ساخنًا. على دقائق من كينغز بيلدينغز ومحمية هيرميتيج وقمة تل بلاكفورد، وهو عنوان الحي الجنوبي لمارشمونت ونيوينغتون ومورنينغسايد.'
+    },
+    ctaReserve: { en: 'Reserve a table', ar: 'احجز طاولة' },
+    ctaExplore: { en: 'Explore the menu', ar: 'استعرض القائمة' },
+    tipHero: { en: 'Entirely optional, never expected — every penny of a tip goes to the floor team.', ar: 'اختياري بالكامل وغير منتظر — كل قرش من البقشيش يذهب لفريق الصالة.' },
+    heroLegend: { en: 'Live light — drag your cursor', ar: 'ضوء حي — حرّك المؤشر' },
+    asideKicker: { en: 'Checked against the public record', ar: 'مقارن بالسجل العام' },
+    asideRating: { en: 'Google rating', ar: 'تقييم جوجل' },
+    asideHours: { en: 'Kitchen service', ar: 'خدمة المطبخ' },
+    asideClosed: { en: 'No service', ar: 'لا خدمة' },
+    asideClosedV: { en: 'Tuesdays — and no daytime slots until the kitchen confirms', ar: 'الثلاثاء — ولا مواعيد نهارية حتى يؤكد المطبخ' },
+    asideWalk: { en: 'Uphill from the door', ar: 'صعودًا من الباب' },
+    asideWalkV: { en: '≈ 9 minutes to Blackford Hill and the Royal Observatory', ar: '≈ ٩ دقائق إلى تل بلاكفورد والمرصد الملكي' },
+    asideNote: { en: 'PLACEHOLDER: weekday lunchtimes remain unverified — the page says so rather than guessing.', ar: 'عنصر مؤقت: أوقات الغداء في أيام الأسبوع غير مؤكدة — والصفحة تقول ذلك بدل التخمين.' },
+    expKicker: { en: 'Three ways to eat here', ar: 'ثلاث طرق للأكل هنا' },
+    expTitle: { en: 'Smashed, stacked, fried — and made to order', ar: 'مسحوق، مرصوف، مقرمش — ويُطهى عند الطلب' },
+    expSub: { en: 'Everything is cooked when you order it. Pick the shape of your evening and we will pre-fill the booking.', ar: 'كل شيء يُطهى لحظة طلبك. اختر شكل أمسيتك وسنملأ الحجز تلقائيًا.' },
+    livePicker: { en: 'Live picker', ar: 'مُحدِّد مباشر' },
+    matcherOutKicker: { en: 'Your match', ar: 'اختيارك المقترح' },
+    matcherIdle: { en: 'Nothing picked yet', ar: 'لم يتم الاختيار بعد' },
+    matcherIdleCopy: { en: 'Answer three questions and this panel names your order — then carries it into the booking form.', ar: 'أجب عن ثلاثة أسئلة وسيسمّي هذا الصندوق طلبك، ثم ينقله إلى نموذج الحجز.' },
+    matcherFill: { en: 'Carry this into my booking', ar: 'انقل هذا إلى حجزي' },
+    menuKicker: { en: 'The board · indicative', ar: 'اللوحة · إرشادية' },
+    menuTitle: { en: 'What the counter is running today', ar: 'ما يُقدّمه الكاونتر اليوم' },
+    menuSub: { en: 'Tabs follow the sections we actually cook: smash burgers, Philly and wraps, wings and loaded fries, shakes and drinks, and the crowd trays. Prices are the published ones.', ar: 'التبويبات تتبع الأقسام التي نطهوها فعلًا: سماش برغر، فيلي وراب، أجنحة وبطاطس محمّلة، ميلك شيك ومشروبات، وصواني المجموعات. الأسعار هي المنشورة.' },
+    frameNote: { en: 'Indicative — the kitchen writes the final one each morning.', ar: 'إرشادية — المطبخ يكتب اللوحة النهائية كل صباح.' },
+    provKicker: { en: 'Within the mile', ar: 'على بُعد ميل' },
+    provNote: { en: 'Named local suppliers: PLACEHOLDER — to be confirmed with the kitchen. Distances are approximate straight-line walks.', ar: 'الموردون المحليون بالاسم: عنصر مؤقت — يُثبَّت مع المطبخ. المسافات تقديرية بالسير المباشر.' },
+    viewKicker: { en: 'The vantage', ar: 'الإطلالة' },
+    viewTitle: { en: 'Walk nine minutes up from the counter and the whole city falls away north.', ar: 'تسع دقائق صعودًا من الكاونتر، وتنفتح المدينة كلها شمالًا.' },
+    viewCopy: { en: 'Blackford Hill and the Royal Observatory sit at the top of Observatory Road, with the Hermitage of Braid behind them. From the summit the rooftops below give onto Arthur\'s Seat and the Salisbury Crags — the vantage this page is named for.', ar: 'يقع تل بلاكفورد والمرصد الملكي في أعلى طريق أوبزيرفاتوري، وتتوارى خلفهما محمية هيرميتيج أوف بريد. من القمة تُطلّ الأسطح على آرثرز سيت وسلسلة سالزبري كراغز — وهي الإطلالة التي سُمّيت هذه الصفحة من أجلها.' },
+    ctaGift: { en: 'Gift voucher', ar: 'قسيمة هدية' },
+    bookKicker: { en: 'Twenty seconds, no card', ar: 'عشرون ثانية، بلا بطاقة' },
+    bookTitle: { en: 'Hold your slot', ar: 'احفظ موعدك' },
+    bookSub: { en: 'No card, no deposit for tables. Pick a day, a time and how you are eating; the summary on the right keeps up as you go.', ar: 'لا بطاقة ولا عربون للطاولات. اختر يومًا ووقتًا وطريقة الأكل، وملخص الحجز على الجانب يتحدث لحظيًا.' },
+    step1Legend: { en: '1 · The slot', ar: '١ · الموعد' },
+    step2Legend: { en: '2 · Anything we should know', ar: '٢ · ما ينبغي أن نعرفه' },
+    fDate: { en: 'Date', ar: 'التاريخ' },
+    fParty: { en: 'Party size', ar: 'عدد الأشخاص' },
+    fMode: { en: 'How are you eating?', ar: 'كيف ستأكل؟' },
+    fTime: { en: 'Time', ar: 'الوقت' },
+    fName: { en: 'Name', ar: 'الاسم' },
+    fPhone: { en: 'Mobile', ar: 'الجوال' },
+    fDiet: { en: 'Dietary needs', ar: 'الاحتياجات الغذائية' },
+    dietNone: { en: 'None', ar: 'لا شيء' },
+    dietVeg: { en: 'Vegetarian (V)', ar: 'نباتي (V)' },
+    dietVegan: { en: 'Vegan (VG)', ar: 'نباتي صرف (VG)' },
+    dietGf: { en: 'Gluten — please advise', ar: 'الغلوتين — يرجى الإفادة' },
+    dietAllergy: { en: 'Allergy (we will call you)', ar: 'حساسية (سنتصل بك)' },
+    fOccasion: { en: 'Celebration', ar: 'المناسبة' },
+    occNo: { en: 'Just dinner', ar: 'عشاء عادي' },
+    occBday: { en: 'Birthday', ar: 'عيد ميلاد' },
+    occGrad: { en: 'Graduation', ar: 'تخرّج' },
+    occWork: { en: 'Team or office', ar: 'فريق أو عمل' },
+    occOther: { en: 'Something else', ar: 'شيء آخر' },
+    fNeeds: { en: 'Access & comfort', ar: 'الوصول والراحة' },
+    fRoute: { en: 'Crowd route (optional)', ar: 'مسار المجموعات (اختياري)' },
+    routeNone: { en: 'No route — just a table', ar: 'بلا مسار — طاولة فقط' },
+    fNotes: { en: 'Notes for the counter', ar: 'ملاحظات إلى الكاونتر' },
+    notesPh: { en: 'Allergies, a highchair, a dog on the pavement table…', ar: 'حساسية، كرسي أطفال، كلب على طاولة الرصيف…' },
+    bookSubmit: { en: 'Confirm my slot', ar: 'تأكيد موعدي' },
+    bookCall: { en: 'Or call the counter', ar: 'أو اتصل بالكاونتر' },
+    bookFine: { en: 'We hold your details on this device only. A holding deposit may apply to crowd orders of 20 or more.', ar: 'نحفظ بياناتك على هذا الجهاز فقط. قد يُطلب عربون لحجوزات المجموعات من ٢٠ شخصًا فأكثر.' },
+    sumTitle: { en: 'Your booking, live', ar: 'حجزك، لحظيًا' },
+    sumTip: { en: 'Thank the team', ar: 'اشكر الفريق' },
+    sumReset: { en: 'Start again', ar: 'البدء من جديد' },
+    sumFine: { en: "Times shown are the published service window, still being verified against the kitchen's own board.", ar: 'الأوقات المعروضة هي نافذة الخدمة المنشورة، وقيد التحقق مقابل لوحة المطبخ.' },
+    routesKicker: { en: 'Nine routes to feeding a crowd', ar: 'تسعة مسارات لإطعام مجموعة' },
+    routesTitle: { en: 'Nobody has to book a private room here', ar: 'لا حاجة لحجز قاعة خاصة هنا' },
+    routesSub: { en: 'There is no private dining room — this is a counter, and it has fed a lot of birthdays, society nights and Friday offices. Choose a route and the booking fills itself in. Routes are examples: PLACEHOLDER until the kitchen confirms what it will run.', ar: 'لا توجد قاعة طعام خاصة — المكان كاونتر، وقد أطعم الكثير من أعياد الميلاد وأمسيات الجمعيات وجماعات الجمعة. اختر مسارًا فيُملأ الحجز تلقائيًا. المسارات أمثلة: عنصر مؤقت حتى يثبّتها المطبخ.' },
+    trustKicker: { en: 'Proof, honestly stated', ar: 'أدلة، بصراحة' },
+    trustTitle: { en: 'Seventy-nine reviews. We would rather earn the eightieth than buy one.', ar: 'تسعة وسبعون تقييمًا. ونفضّل أن نستحق الثمانين على أن نشتريه.' },
+    trustSub: { en: 'No inflated numbers, no stock faces. This is the public record as it stands today, including the parts that do not flatter us.', ar: 'لا أرقام منفوخة ولا صور جاهزة. هذا هو السجل العام كما هو اليوم، بما فيه ما لا يجملنا.' },
+    faqKicker: { en: 'Six things people ask', ar: 'ستة أسئلة متكررة' },
+    faqTitle: { en: 'Answered before you call', ar: 'أُجبنا عليها قبل أن تتصل' },
+    finalKicker: { en: 'The last word', ar: 'الكلمة الأخيرة' },
+    finalTitle: { en: 'Two taps, and the table is yours.', ar: 'نقرتان، والطاولة لك.' },
+    finalCopy: { en: "Reserve in the portal above, or send a gift voucher to someone who needs a smash burger and a Biscoff shake. If anything on this page disagrees with the kitchen's board, the board wins — and we will fix the page.", ar: 'احجز من البوابة أعلاه، أو أهدِ قسيمة لمن يحتاج سماش برغر وميلك شيك بيسكوف. وإن تعارض شيء في هذه الصفحة مع لوحة المطبخ، فلوحة المطبخ أولى — وسنصلح الصفحة.' },
+    tipFinal: { en: 'Entirely optional, never expected — tips go straight to the floor team, not the house.', ar: 'اختياري بالكامل وغير منتظر — البقشيش يذهب مباشرة لفريق الصالة لا للمؤسسة.' },
+    footFind: { en: 'Find us', ar: 'أين نحن' },
+    footMap: { en: 'Open in Google Maps', ar: 'افتح في خرائط جوجل' },
+    footAccess: { en: 'Step-free threshold at the door; the counter and collection point are on the ground floor. Accessibility details marked PLACEHOLDER pending a site visit.', ar: 'عتبة الدخول بدون درجات؛ الكاونتر ونقطة الاستلام في الطابق الأرضي. تفاصيل الوصول مُعلّمة كعنصر مؤقت بانتظار زيارة ميدانية.' },
+    footHours: { en: 'Hours', ar: 'ساعات العمل' },
+    footHoursNote: { en: 'Sources disagree — FSA, Just Eat and Uber Eats list an evening service with Tuesday closed; the current site lists weekday lunchtimes. Confirm by phone.', ar: 'المصادر متعارضة — هيئة سلامة الغذاء وجست إيت وأوبر إيتس تذكر خدمة مسائية مع إغلاق الثلاثاء؛ والموقع الحالي يذكر أوقات غداء أيام الأسبوع. يُثبَّت هاتفيًا.' },
+    footMore: { en: 'Elsewhere', ar: 'في أماكن أخرى' },
+    footSite: { en: 'Current website', ar: 'الموقع الحالي' },
+    footJe: { en: 'Just Eat', ar: 'جست إيت' },
+    footDel: { en: 'Deliveroo', ar: 'ديليفرو' },
+    footUe: { en: 'Uber Eats', ar: 'أوبر إيتس' },
+    footTip: { en: 'Tips: optional, never expected, and paid straight to the floor team.', ar: 'البقشيش: اختياري، وغير منتظر، ويُدفع مباشرة لفريق الصالة.' },
+    footProto: { en: 'Prototype build · Next.js 14 production plan in README.md', ar: 'نسخة أولية · خطة الإنتاج Next.js 14 في README.md' },
+    mbarCall: { en: 'Call', ar: 'اتصل' },
+    mbarTip: { en: 'Tip', ar: 'بقشيش' },
+    tipTitle: { en: 'Gratitude, never a toll', ar: 'امتنان، لا رسوم' },
+    tipCopy: { en: 'Entirely optional, never expected. The full amount goes to the floor team, and no card details ever touch this site.', ar: 'اختياري بالكامل وغير منتظر. المبلغ كاملًا يذهب لفريق الصالة، ولا تمر بيانات بطاقة عبر هذا الموقع إطلاقًا.' },
+    tipOther: { en: 'Another amount', ar: 'مبلغ آخر' },
+    tipPay: { en: 'Continue to PayPal', ar: 'المتابعة إلى باي بال' },
+    tipLater: { en: 'Not today', ar: 'ليس اليوم' },
+    tipDemo: { en: 'Prototype: this button is wired to a simulated endpoint. In production it creates a PayPal Orders v2 order server-side and redirects to the approval link — no card data is ever handled by us.', ar: 'نموذج أولي: الزر مرتبط بنقطة نهاية محاكاة. في الإنتاج يُنشئ الأمر عبر PayPal Orders v2 على الخادم ويحوّل إلى رابط الموافقة — ولا نتعامل مع بيانات البطاقات إطلاقًا.' },
+    /* dynamic */
+    hoursDays: { en: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'], ar: ['الأحد', 'الاثنين', 'الثلاثاء', 'الأربعاء', 'الخميس', 'الجمعة', 'السبت'] },
+    closedWord: { en: 'Closed', ar: 'مغلق' },
+    verifiedWord: { en: 'Evening service', ar: 'خدمة مسائية' },
+    trust1: { en: 'The smash, stacked and sauced', ar: 'السماش، مرصوفًا ومغموسًا' },
+    modeCollection: { en: 'Collect at the counter', ar: 'استلام من الكاونتر' },
+    modeEatin: { en: 'Eat in', ar: 'تناول في المكان' },
+    modeDelivery: { en: 'Delivery partner', ar: 'عبر شريك توصيل' },
+    modeEatinNote: { en: 'Listed as a takeaway counter — seats to be confirmed', ar: 'مُسجّل ككاونتر للطعام الجاهز — المقاعد قيد التأكيد' },
+    needAccess: { en: 'Step-free access', ar: 'وصول بدون درجات' },
+    needHighchair: { en: 'Highchair', ar: 'كرسي أطفال' },
+    needDog: { en: 'Dog with us', ar: 'كلب معنا' },
+    needQuiet: { en: 'Quieter corner', ar: 'زاوية هادئة' },
+    needPic: { en: 'Birthday candle', ar: 'شمعة عيد ميلاد' },
+    sumDate: { en: 'Date', ar: 'التاريخ' },
+    sumTime: { en: 'Time', ar: 'الوقت' },
+    sumParty: { en: 'Party', ar: 'عدد الأشخاص' },
+    sumMode: { en: 'Service', ar: 'الخدمة' },
+    sumDiet: { en: 'Dietary', ar: 'غذائي' },
+    sumOcc: { en: 'Occasion', ar: 'المناسبة' },
+    sumNeeds: { en: 'Access', ar: 'الوصول' },
+    sumRoute: { en: 'Route', ar: 'المسار' },
+    sumMatch: { en: 'Your match', ar: 'اختيارك' },
+    sumTipRow: { en: 'Tip pledged', ar: 'بقشيش متعهّد' },
+    emptyDash: { en: '— not set —', ar: '— غير محدد —' },
+    slotLunch: { en: 'Daytime service (12:00–16:50)', ar: 'خدمة النهار (١٢:٠٠–١٦:٥٠)' },
+    slotNote: { en: 'Daytime slots are disabled by design: the majority public record lists an evening kitchen only. Tuesday is disabled — FSA, Just Eat and Uber Eats all show no Tuesday service, while the current site still lists one.', ar: 'مواعيد النهار مُعطّلة بحكم التصميم: أغلب السجلات العامة تذكر مطبخًا مسائيًا فقط. والثلاثاء مُعطّل — هيئة سلامة الغذاء وجست إيت وأوبر إيتس لا تُظهر خدمة الثلاثاء، بينما الموقع الحالي يذكرها.' },
+    slotTue: { en: 'Tuesday is disabled: three public sources show no Tuesday service, though our own site still lists one. Call the counter before travelling.', ar: 'الثلاثاء مُعطّل: ثلاثة مصادر عامة لا تُظهر خدمة الثلاثاء، لكن موقعنا ما زال يذكرها. اتصل بالكاونتر قبل القدوم.' },
+    slotOpen: { en: 'Kitchen runs the published evening window.', ar: 'المطبخ يعمل في نافذة المساء المنشورة.' },
+    errorNeeded: { en: 'We still need:', ar: 'ما زلنا نحتاج:' },
+    errorDate: { en: 'a date', ar: 'تاريخًا' },
+    errorTime: { en: 'a time that is not struck out', ar: 'وقتًا غير مشطوب' },
+    errorName: { en: 'your name', ar: 'اسمك' },
+    errorPhone: { en: 'a mobile number of at least 7 digits', ar: 'رقم جوال من ٧ أرقام على الأقل' },
+    confirmTitle: { en: 'Slot held — the counter has it', ar: 'تم حفظ الموعد — الكاونتر لديه الحجز' },
+    confirmCopy: { en: 'No card was taken. The counter will confirm by phone if anything changes — especially while the hours are being verified.', ar: 'لم تُؤخذ أي بطاقة. سيؤكد الكاونتر هاتفيًا إن تغيّر أي شيء — خصوصًا أثناء التحقق من الساعات.' },
+    confirmRef: { en: 'Reference', ar: 'الرقم المرجعي' },
+    confirmTip: { en: 'Thank the team', ar: 'اشكر الفريق' },
+    confirmCall: { en: 'Call the counter', ar: 'اتصل بالكاونتر' },
+    confirmAgain: { en: 'Change something', ar: 'تغيير شيء' },
+    tipThanks: { en: 'Thank you — a tip of', ar: 'شكرًا — بقشيش بقيمة' },
+    tipThanks2: { en: 'is queued for the floor team. Entirely optional, and reversible at any time before collection.', ar: 'سيذهب لفريق الصالة. اختياري بالكامل، ويمكن التراجع عنه قبل الاستلام.' },
+    tipSimulated: { en: 'Prototype notice: no payment was taken. Production creates a real PayPal Orders v2 order.', ar: 'تنبيه النسخة الأولية: لم يُجرَ أي دفع. الإنتاج يُنشئ أمر PayPal Orders v2 حقيقيًا.' },
+    remembered: { en: 'Remembered on this device: party size, service and dietary notes.', ar: 'محفوظ على هذا الجهاز: عدد الأشخاص والخدمة والملاحظات الغذائية.' },
+    statRating: { en: 'Google rating', ar: 'تقييم جوجل' },
+    statReviews: { en: 'Verified reviews', ar: 'تقييمات موثّقة' },
+    statWings: { en: 'Wing finishes on the board', ar: 'نكهات الأجنحة على اللوحة' },
+    statDays: { en: 'Days a week, per the majority record', ar: 'أيام في الأسبوع حسب أغلب المصادر' },
+    statNote: { en: 'On Mayfield Road since around 2023 — approximate, from the earliest public review.', ar: 'على طريق مايفيلد منذ نحو ٢٠٢٣ — تقديرًا من أقدم تقييم عام.' },
+    reviewSource: { en: 'Google review · verbatim', ar: 'تقييم جوجل · بالحرف' },
+    chipV: { en: 'V — vegetarian', ar: 'V — نباتي' },
+    chipVG: { en: 'VG — vegan', ar: 'VG — نباتي صرف' },
+    chipGF: { en: 'GF — ask us', ar: 'GF — اسألنا' },
+    legendNote: { en: 'No certified gluten-free menu: fryers and prep surfaces are shared with wheat-floured items. Ask at the counter and we will tell you exactly what we can and cannot do.', ar: 'لا قائمة خالية من الغلوتين معتمدة: المقالي وأسطح التحضير مشتركة مع أطعمة تحتوي دقيق القمح. اسأل في الكاونتر وسنوضح لك بالتفصيل ما نستطيع وما لا نستطيع.' },
+    legendAdd: { en: 'Add dietary note to my booking', ar: 'أضف ملاحظة غذائية إلى حجزي' },
+    filterOn: { en: 'Showing only', ar: 'يُعرض فقط' },
+    filterOff: { en: 'Showing the whole board', ar: 'تُعرض اللوحة كاملة' },
+    placeholder: { en: 'PLACEHOLDER', ar: 'عنصر مؤقت' },
+    matcherQ1: { en: "Who's eating?", ar: 'مَن سيأكل؟' },
+    matcherQ2: { en: 'How hungry are you?', ar: 'ما مقدار جوعك؟' },
+    matcherQ3: { en: 'Heat, or something sweet?', ar: 'حارّ أم حلو؟' },
+    matchNone: { en: 'Pick an answer to continue', ar: 'اختر إجابة للمتابعة' },
+    matchPicks: { en: 'Carries into booking', ar: 'يُحمل إلى الحجز' },
+    routeQ: { en: 'Plan this route', ar: 'خطّط هذا المسار' },
+    routeApplied: { en: 'Route added to your booking', ar: 'أُضيف المسار إلى حجزك' },
+    a11yTabs: { en: 'Menu sections', ar: 'أقسام القائمة' },
+    a11ySlots: { en: 'Available times', ar: 'الأوقات المتاحة' }
+  };
+  var T = function (k) { return L(STR[k] || { en: k, ar: k }); };
+
+  /* ===================================================================
+     2. DATA — verified public facts. Sources: PITCH appendix.
+     =================================================================== */
+  var DATA = {
+    phone: '+44 131 374 4464',
+    tel: '+441313744464',
+    /* FSA register + Just Eat + Uber Eats agree: evening service, no Tuesday. */
+    hours: { 0: ['17:10', '21:50'], 1: ['17:10', '21:50'], 2: null, 3: ['17:10', '21:50'], 4: ['17:10', '21:50'], 5: ['17:10', '21:50'], 6: ['17:10', '21:50'] },
+    provenance: [
+      { en: 'Blackford Hill & the Royal Observatory', ar: 'تل بلاكفورد والمرصد الملكي', d: '≈ 0.9 km' },
+      { en: 'Hermitage of Braid local nature reserve', ar: 'محمية هيرميتيج أوف بريد', d: '≈ 0.6 km' },
+      { en: "King's Buildings, University of Edinburgh", ar: 'كينغز بيلدينغز، جامعة إدنبرة', d: '≈ 0.5 km' },
+      { en: 'Newington & Cameron Toll', ar: 'نيوينغتون وكاميرون تول', d: '≈ 1.2 km' }
+    ],
+    trustbar: [
+      { en: '4.1 ★ · 79 Google reviews', ar: '٤٫١ ★ · ٧٩ تقييمًا' },
+      { en: 'Halal kitchen', ar: 'مطبخ حلال' },
+      { en: '61 Mayfield Road · EH9 3AA', ar: '61 طريق مايفيلد · EH9 3AA' },
+      { en: 'Evening service 17:10–21:50 · hours under verification', ar: 'خدمة مسائية ١٧:١٠–٢١:٥٠ · الساعات قيد التحقق' }
+    ],
+    experience: [
+      { img: '01-signature-smash.jpg', w: 768, h: 1376, t: { en: 'Smashed to order', ar: 'يُسحق عند الطلب' }, c: { en: 'Thin Angus patties pressed hard on a hot plate, cheese melted over the crust, wrapped while the bun is still toasting.', ar: 'قطع أنغوس رقيقة تُضغط بقوة على سطح ساخن، ويُذاب الجبن فوق القشرة، ثم تُلف والخبز ما زال محمّصًا.' }, tag: { en: 'Burgers £6.95–£12.50', ar: 'برغر ٦٫٩٥–١٢٫٥٠ جنيهًا' } },
+      { img: '02-first-of-service-board.jpg', w: 1376, h: 768, t: { en: 'Wings, eleven ways', ar: 'الأجنحة بإحدى عشرة نكهة' }, c: { en: 'Crispy-fried or flame-grilled peri, then finished in any of the eleven flavours on the board — from Lemon Pepper to Korean Gochujang.', ar: 'مقلية مقرمشة أو مشوية على اللهب بالبيري، ثم تُنهى بأي من النكهات الإحدى عشرة — من الليمون والفلفل إلى الكوري غوتشوجانغ.' }, tag: { en: '6 for £4.95 · 12 for £6.95', ar: '٦ حبات ٤٫٩٥ · ١٢ حبة ٦٫٩٥' } },
+      { img: '04-feast-box-dusk.jpg', w: 1408, h: 768, t: { en: 'The Philly counter', ar: 'كاونتر الفيلي' }, c: { en: 'Ribeye sliced thin, onions grilled sweet, Gouda and cheese sauce in a toasted sub roll. The one regulars order before they sit down.', ar: 'لحم الريب آي مقطّع رقيقًا، وبصل مشوي حلو، وجودا وصلصة جبن في خبز محمّص. الطلب الذي يطلبه الزبائن الدائمون قبل الجلوس.' }, tag: { en: 'Philly & wraps £6.95–£10.95', ar: 'فيلي وراب ٦٫٩٥–١٠٫٩٥' } },
+      { img: '06-biscoff-shake.jpg', w: 768, h: 1376, t: { en: 'Shakes worth the wait', ar: 'ميلك شيك يستحق الانتظار' }, c: { en: 'Thick, spun to order — Biscoff, Oreo, Ferrero, Kinder or chocolate. Reviewers mention the shakes almost as often as the burgers.', ar: 'كثيف يُخفق عند الطلب — بيسكوف، أوريو، فيريرو، كيندر أو شوكولاتة. المقيّمون يذكرون الميلك شيك بقدر ما يذكرون البرغر.' }, tag: { en: 'Milkshakes £5.25', ar: 'ميلك شيك ٥٫٢٥' } }
+    ],
+    menu: [
+      {
+        id: 'smash', en: 'Smash burgers', ar: 'سماش برغر', img: '01-signature-smash.jpg', w: 768, h: 1376,
+        cap: { en: 'Signature plate — smash patty, American cheese, house sauce.', ar: 'الطبق الأيقوني — قطعة سماش، جبن أمريكي، صوص المنزل.' },
+        items: [
+          { n: 'Bonnie Smash', p: '£6.95', d: { en: '3oz smash-grilled Angus patty, signature house blend, crisp lettuce, melted American cheese, gherkins, Bonnie house sauce, toasted brioche.', ar: 'قطعة أنغوس ٣ أونصات مسحوقة، خلطة المنزل، خس مقرمش، جبن أمريكي ذائب، مخلل، صوص بوني، خبز بريوش محمّص.' } },
+          { n: 'Smash XL', p: '£8.50', d: { en: 'Two 3oz smash patties, American cheese, gherkins, crispy onions, house sauce.', ar: 'قطعتا سماش، جبن أمريكي، مخلل، بصل مقرمش، صوص المنزل.' } },
+          { n: 'Mushroom Melt', p: '£9.50', d: { en: 'Double smash, caramelised onions, grilled mushrooms, creamy garlic mayo, American cheese.', ar: 'سماش مزدوج، بصل مكرمل، مشروم مشوي، مايونيز بالثوم، جبن أمريكي.' } },
+          { n: 'The Lava', p: '£8.95', d: { en: 'Double smash, red onions, spicy lava sauce, American cheese, house sauce.', ar: 'سماش مزدوج، بصل أحمر، صوص لافا الحار، جبن أمريكي، صوص المنزل.' } },
+          { n: 'Peri Sizzler', p: '£8.50', d: { en: 'Marinated peri-peri grilled chicken tenders, house slaw, garlic mayo, American cheese.', ar: 'شرائح دجاج متبّلة بالبيري بيري مشوية، سلطة الملفوف، مايونيز بالثوم، جبن أمريكي.' } },
+          { n: 'Bonnie Chicken Sandwich', p: '£7.95', d: { en: 'House-crispy buttermilk chicken tenders, lettuce, pickles, American cheese, house mayo.', ar: 'شرائح دجاج باللبن الرائب مقرمشة، خس، مخلل، جبن أمريكي، مايونيز المنزل.' } },
+          { n: 'Buttermilk Buffalo Blaze', p: '£8.50', d: { en: 'Buttermilk fried tenders tossed in buffalo sauce, lettuce, American cheese, double mayo.', ar: 'دجاج باللبن الرائب مقرمش بصوص البافلو، خس، جبن أمريكي، مايونيز مزدوج.' } },
+          { n: 'Bonnie Vegan', p: '£8.50', chips: ['VG'], d: { en: 'Crispy vegan patty, grilled onions, lettuce, vegan cheddar, tomato chutney, vegan garlic mayo, vegan brioche.', ar: 'قطعة نباتية مقرمشة، بصل مشوي، خس، شيدر نباتي، صلصة طماطم، مايونيز ثوم نباتي، بريوش نباتي.' } },
+          { n: 'Mozz Melt', p: '£8.50', chips: ['V'], d: { en: 'Grilled mozzarella patty, crispy onions, lettuce, American cheese, sun-dried tomato relish, smoky garlic mayo.', ar: 'قطعة موزاريلا مشوية، بصل مقرمش، خس، جبن أمريكي، صلصة طماطم مجففة، مايونيز ثوم مدخّن.' } },
+          { n: 'Bonnie Tower', p: '£12.50', d: { en: 'Three smash patties, American cheese, grilled onions, beef bacon, house sauce.', ar: 'ثلاث قطع سماش، جبن أمريكي، بصل مشوي، لحم بقري مقدّد، صوص المنزل.' } },
+          { n: 'The Brunch', p: '£11.95', d: { en: 'Two smash patties, hash brown, fried egg, American cheese, turkey rashers, sriracha mayo.', ar: 'قطعتا سماش، هاش براون، بيض مقلي، جبن أمريكي، شرائح ديك رومي، مايونيز سيراشا.' } },
+          { n: 'Bonnie Stack', p: '£11.50', d: { en: 'Two smash patties, onion rings, American cheese, lettuce, smoky BBQ, house sauce.', ar: 'قطعتا سماش، حلقات بصل، جبن أمريكي، خس، باربكيو مدخّن، صوص المنزل.' } }
+        ]
+      },
+      {
+        id: 'philly', en: 'Philly & wraps', ar: 'فيلي وراب', img: '04-feast-box-dusk.jpg', w: 1408, h: 768,
+        cap: { en: 'The evening spread — subs, loaded fries and tenders at dusk.', ar: 'مائدة المساء — سابس وبطاطس محمّلة وقطع دجاج عند الغروب.' },
+        items: [
+          { n: 'OG Philly', p: '£10.50', d: { en: 'Ribeye slices, grilled onions, melted Gouda, cheese sauce, house sauce, pickled jalapeños, toasted sub roll.', ar: 'شرائح ريب آي، بصل مشوي، جودة ذائبة، صلصة جبن، صوص المنزل، هالبينو مخلل، خبز ساب محمّص.' } },
+          { n: 'Mushroom Philly', p: '£10.95', d: { en: 'Ribeye, grilled mushrooms and onions, Gouda, cheese sauce, garlic sauce, house sauce.', ar: 'ريب آي، مشروم وبصل مشوي، جودة، صلصة جبن، صلصة ثوم، صوص المنزل.' } },
+          { n: 'Pepper Philly', p: '£10.95', d: { en: 'Ribeye, grilled peppers and onions, Gouda, cheese sauce, crispy onions.', ar: 'ريب آي، فلفل وبصل مشوي، جودة، صلصة جبن، بصل مقرمش.' } },
+          { n: 'Buffalo Chicken Philly', p: '£9.95', d: { en: 'Buttermilk-marinated chicken steak in buffalo sauce, grilled onions, Gouda, ranch, crispy onions.', ar: 'دجاج باللبن الرائب بصوص البافلو، بصل مشوي، جودة، رانش، بصل مقرمش.' } },
+          { n: 'The Peri Wrap', p: '£6.95', d: { en: 'Grilled peri chicken, house slaw, American cheese, peri garlic sauce, toasted tortilla.', ar: 'دجاج بيري مشوي، سلطة الملفوف، جبن أمريكي، صلصة ثوم بيري، تورتيلا محمّصة.' } },
+          { n: 'Buttermilk Crunch', p: '£6.95', d: { en: 'Buttermilk chicken tenders, American cheese, lettuce, pickles, house mayo.', ar: 'شرائح دجاج باللبن الرائب، جبن أمريكي، خس، مخلل، مايونيز المنزل.' } },
+          { n: 'Halloumi Wrap', p: '£6.95', chips: ['V'], d: { en: 'Grilled halloumi strips, lettuce, red onions, tomato chutney, mint yogurt.', ar: 'شرائح حلوم مشوية، خس، بصل أحمر، صلصة طماطم، زبادي بالنعنع.' } },
+          { n: 'Vegan Wrap', p: '£6.95', chips: ['VG'], d: { en: 'Crispy vegan strips, grilled onions, lettuce, vegan cheese, vegan garlic mayo, tomato relish.', ar: 'شرائح نباتية مقرمشة، بصل مشوي، خس، جبن نباتي، مايونيز ثوم نباتي، صلصة طماطم.' } },
+          { n: 'Bonnie Blaze', p: '£6.95', d: { en: 'Buttermilk chicken tenders, lettuce, jalapeños, mayo, Bonnie Fire sauce.', ar: 'شرائح دجاج باللبن الرائب، خس، هالبينو، مايونيز، صوص بوني فاير.' } }
+        ]
+      },
+      {
+        id: 'wings', en: 'Wings & loaded fries', ar: 'الأجنحة والبطاطس المحمّلة', img: '02-first-of-service-board.jpg', w: 1376, h: 768,
+        cap: { en: 'First of service — wings, rings and a paper cone of fries.', ar: 'بداية الخدمة — أجنحة وحلقات بصل وقمع بطاطس ورقي.' },
+        items: [
+          { n: 'Crispy Fry Wings', p: '£4.95 / £6.95', d: { en: 'Six or twelve, marinated in the house spice blend and fried golden. Finished in any flavour: Bonnie Fire, Buffalo, Garlic Parmesan, Lemon Pepper, Korean Gochujang, Smoky BBQ (+£1.50 for sauce).', ar: 'ست أو اثنتا عشرة، متبّلة بخلطة البهارات وتُقلى حتى الذهبي. بأي نكهة: بوني فاير، بافلو، ثوم وبارميزان، ليمون وفلفل، كوري غوتشوجانغ، باربكيو مدخّن (+١٫٥٠ للصوص).' } },
+          { n: 'Grilled Peri Wings', p: '£4.95 / £6.95', d: { en: 'Flame-grilled in the peri blends. Heat levels from Mild Peri to Hot Peri, plus Lemon Garlic and Chilli Lime Crema.', ar: 'مشوية على اللهب بخلطات البيري. درجات حرارة من الميلد إلى الهوت، مع الليمون والثوم والكريما بالليمون الحار.' } },
+          { n: 'Bonnie Loaded Fries', p: '£8.50', d: { en: 'Fries loaded with grilled diced chicken, cheese sauce, Bonnie Bang sauce, jalapeños, grated cheese. Big enough for two.', ar: 'بطاطس محمّلة بدجاج مشوي مقطّع، صلصة جبن، صوص بوني بانغ، هالبينو، جبن مبشور. تكفي لشخصين.' } },
+          { n: 'Steak Melt Fries', p: '£10.95', d: { en: 'Ribeye slices, grilled onions, cheese sauce, melted Gouda, garlic mayo, house sauce, crispy onions.', ar: 'شرائح ريب آي، بصل مشوي، صلصة جبن، جودة ذائبة، مايونيز ثوم، صوص المنزل، بصل مقرمش.' } },
+          { n: 'Bonnie Crunch Fries', p: '£8.50', d: { en: 'Chopped crispy fried chicken over fries, cheese sauce and house ranch.', ar: 'دجاج مقرمش مقطّع على البطاطس، صلصة جبن، رانش المنزل.' } },
+          { n: 'Halloumi Heatwave', p: '£8.50', chips: ['V'], d: { en: 'Grilled halloumi, cheese sauce, spicy tomato relish, roasted peppers, red onions, garlic mayo, crumbled feta.', ar: 'حلوم مشوي، صلصة جبن، صلصة طماطم حارة، فلفل مشوي، بصل أحمر، مايونيز ثوم، جبن فيتا.' } },
+          { n: 'Vegan Drip Fries', p: '£7.95', chips: ['VG'], d: { en: 'Vegan patty pieces, vegan nacho cheese, grilled jalapeños, tomato relish, vegan mayo, crispy onions.', ar: 'قطع نباتية، جبن ناتشو نباتي، هالبينو مشوي، صلصة طماطم، مايونيز نباتي، بصل مقرمش.' } },
+          { n: 'Bonnie Philly Rice Bowl', p: '£10.95', d: { en: 'Basmati rice, ribeye slices, grilled onions, melted provolone, cheese sauce, garlic chilli drizzle.', ar: 'أرز بسمتي، شرائح ريب آي، بصل مشوي، بروفولون ذائب، صلصة جبن، رشة ثوم حار.' } },
+          { n: 'Peri Rice Bowl', p: '£7.95', d: { en: 'Basmati, grilled diced chicken, house slaw, mint yogurt, garlic mayo. Choose from five peri flavours.', ar: 'بسمتي، دجاج مشوي مقطّع، سلطة الملفوف، زبادي بالنعنع، مايونيز ثوم. اختر من خمس نكهات بيري.' } }
+        ]
+      },
+      {
+        id: 'shakes', en: 'Shakes & sides', ar: 'ميلك شيك ومقبلات', img: '03-shake-counter.jpg', w: 896, h: 1200,
+        cap: { en: 'The counter shelf — shakes spun to order, bottles frosting over.', ar: 'رف الكاونتر — ميلك شيك يُخفق عند الطلب وزجاجات تتندّى بالبرودة.' },
+        items: [
+          { n: 'Biscoff Shake', p: '£5.25', chips: ['V'], d: { en: 'Thick, spun to order with Biscoff. The one reviewers keep photographing.', ar: 'كثيف يُخفق مع بيسكوف. الذي يصوّره المقيّمون دائمًا.' } },
+          { n: 'Oreo Shake', p: '£5.25', chips: ['V'], d: { en: 'Oreo blended thick. Milk-based.', ar: 'أوريو مخفوق كثيف. أساسه الحليب.' } },
+          { n: 'Ferrero Shake', p: '£5.25', chips: ['V'], d: { en: 'Hazelnut and chocolate, spun with Ferrero.', ar: 'بندق وشوكولاتة مع فيريرو.' } },
+          { n: 'Kinder Shake', p: '£5.25', chips: ['V'], d: { en: 'Kinder chocolate, blended creamy.', ar: 'شوكولاتة كيندر بخلطة كريمية.' } },
+          { n: 'Chocolate Shake', p: '£5.25', chips: ['V'], d: { en: 'The plain one that people reorder.', ar: 'الكلاسيكي الذي يُعاد طلبه.' } },
+          { n: 'Sides & dips', p: '£1.00–£4.50', d: { en: 'Fries £3.25, waffle fries £3.50, cheesy fries £4.25, onion rings £3.50, mozzarella sticks £3.95, chilli cheese bites £3.95, nuggets x5 or strips x3 £4.50. Dips £1.00–£1.50 including Bonnie OG, Bonnie Fire, Bonnie Bang and cheese sauce.', ar: 'بطاطس ٣٫٢٥، وافل فرايز ٣٫٥٠، بطاطس بالجبن ٤٫٢٥، حلقات بصل ٣٫٥٠، أعواد موزاريلا ٣٫٩٥، لقيمات الجبن الحار ٣٫٩٥، ناغتس ×٥ أو شرائح ×٣ بـ٤٫٥٠. الصوصات ١٫٠٠–١٫٥٠ وتشمل بوني أو جي وبوني فاير وبوني بانغ وصلصة الجبن.' } },
+          { n: 'Cold drinks', p: '£1.50–£1.95', d: { en: 'Coke, Coke Zero, Fanta, Irn-Bru, still water. Partner-delivery prices may differ.', ar: 'كوكا، كوكا زيرو، فانتا، آيرن برو، مياه. قد تختلف الأسعار عبر شركاء التوصيل.' } }
+        ]
+      },
+      {
+        id: 'crowd', en: 'Feeds a crowd', ar: 'وجبات للمجموعات', img: '06-biscoff-shake.jpg', w: 768, h: 1376,
+        cap: { en: 'What the trays come out of — one dessert built for the table.', ar: 'ما تخرج منه الصواني — حلوى واحدة تكفي الطاولة.' },
+        items: [
+          { n: "Kids' meals", p: '£4.95–£5.95', d: { en: 'Mini beef burger £5.95, mini chicken burger £5.50, four nuggets £4.95 — each with fries and a Fruit Shoot.', ar: 'برغر لحم صغير ٥٫٩٥، برغر دجاج صغير ٥٫٥٠، أربع ناغتس ٤٫٩٥ — مع بطاطس وعصير فروت شوت.' } },
+          { n: 'Feeds four', p: '£34 (indicative)', d: { en: 'Four smash burgers, two loaded fries and four shakes, boxed flat for the table. PLACEHOLDER price — built from the board, not yet a listed offer.', ar: 'أربعة سماش برغر، بطاطس محمّلة مزدوجة، وأربعة ميلك شيك، معبّأة للطاولة. السعر عنصر مؤقت — محسوب من اللوحة وليس عرضًا مُثبَّتًا.' } },
+          { n: 'Feeds ten', p: '£82 (indicative)', d: { en: 'Ten burgers picked across the board, six loaded fries, twenty-four wings, dips. PLACEHOLDER price.', ar: 'عشرة برغر من كل اللوحة، ست بطاطس محمّلة، أربع وعشرون قطعة أجنحة، صوصات. السعر عنصر مؤقت.' } },
+          { n: 'The office Friday', p: '£95 (indicative)', d: { en: 'Twenty wings, ten tenders, four loaded fries and a tray of dips, delivered by partner courier or collected. PLACEHOLDER price.', ar: 'عشرون جناحًا، عشر قطع دجاج، أربع بطاطس محمّلة، وصينية صوصات، تُوصل عبر شريك أو تُستلم. السعر عنصر مؤقت.' } }
+        ]
+      }
+    ],
+    stats: [
+      { k: 'rating', v: 4.1, dec: 1, lab: 'statRating' },
+      { k: 'reviews', v: 79, dec: 0, lab: 'statReviews' },
+      { k: 'wings', v: 11, dec: 0, lab: 'statWings' },
+      { k: 'days', v: 6, dec: 0, lab: 'statDays' }
+    ],
+    reviews: [
+      { q: 'The loaded fries and milkshakes are amazing and the staff are really friendly.', n: 'Google review summary', r: 5 },
+      { q: 'High quality food, fast, friendly service, good value too.', n: 'Google review', r: 5 },
+      { q: 'Really enjoyed the buttermilk chicken and Philly Cheesesteak!', n: 'Google review', r: 5 },
+      { q: 'Food was of great quality and tasted lovely. Service was on point and interior is neat and clean.', n: 'Abdul Ahmad · Google', r: 5 },
+      { q: 'Burger was really good. Tasty & melt in the mouth. Staff member was apologetic & very pleasant.', n: 'lorna andrew · Google', r: 4 },
+      { q: 'Portions are a little smaller than competitors, but still filling enough.', n: 'Abdul Ahmad · Google — kept in, because it is true', r: 4 }
+    ],
+    faq: [
+      { q: { en: 'Do I need to book — or be a member?', ar: 'هل أحتاج إلى حجز — أو إلى عضوية؟' }, a: { en: 'There is no membership and no card on file. Walk in for one or two. Reservations exist for groups of six or more and for crowd trays, so the kitchen can hold stock and the counter can hold your slot.', ar: 'لا عضوية ولا بطاقة محفوظة. تعال مباشرة لشخص أو شخصين. الحجوزات للمجموعات من ستة فأكثر ولصواني المناسبات، ليحفظ المطبخ المواد ويحفظ الكاونتر موعدك.' } },
+      { q: { en: 'What are the real opening hours?', ar: 'ما ساعات العمل الحقيقية؟' }, a: { en: 'Honestly: the public record disagrees. The FSA register, Just Eat and Uber Eats all show an evening kitchen from about 17:10 to 21:50 with no Tuesday service. The current site lists 12pm–10pm Monday to Friday. This page uses the majority record, strikes out what it cannot verify, and gives you the phone number. That conflict is the first thing we would fix.', ar: 'بصراحة: السجل العام متعارض. هيئة سلامة الغذاء وجست إيت وأوبر إيتس تُظهر مطبخًا مسائيًا من نحو ١٧:١٠ إلى ٢١:٥٠ بلا خدمة الثلاثاء، والموقع الحالي يذكر من ١٢:٠٠ حتى ٢٢:٠٠ من الاثنين للجمعة. هذه الصفحة تتبع أغلب المصادر، وتشطب ما لا يمكن التحقق منه، وتعطيك رقم الهاتف. هذا التعارض أول ما نصلحه.' } },
+      { q: { en: 'Dietary needs and children?', ar: 'الاحتياجات الغذائية والأطفال؟' }, a: { en: 'The kitchen is halal. Vegetarian and vegan dishes are marked V and VG on the board, and kids\u2019 meals run from £4.95 with fries and a drink. There is no certified gluten-free menu — fryers and prep surfaces are shared, so ask at the counter and we will tell you plainly what we can do.', ar: 'المطبخ حلال. الأطباق النباتية والنباتية الصرفة مُعلّمة على اللوحة بـ V و VG، ووجبات الأطفال تبدأ من ٤٫٩٥ مع بطاطس ومشروب. ولا توجد قائمة خالية من الغلوتين معتمدة — المقالي وأسطح التحضير مشتركة، لذا اسأل في الكاونتر وسنوضح بصراحة ما نستطيع تقديمه.' } },
+      { q: { en: 'Can you host a private function?', ar: 'هل تستضيفون مناسبة خاصة؟' }, a: { en: 'We have no private room and we will not pretend otherwise. We do crowd orders: trays built for ten to forty people, collected at the counter or delivered by our partners. Nine example routes are listed in the booking section.', ar: 'ليست لدينا قاعة خاصة ولن ندّعي غير ذلك. لكننا نجهّز طلبات المجموعات: صواني لعشرة إلى أربعين شخصًا، تُستلم من الكاونتر أو تُوصل عبر شركائنا. وتسعة مسارات نموذجية مذكورة في قسم الحجز.' } },
+      { q: { en: 'Parking, buses and how far is the walk?', ar: 'المواقف والباصات ومسافة السير؟' }, a: { en: '61 Mayfield Road, EH9 3AA, with on-street parking on Mayfield Road and the neighbouring streets and Lothian Buses on Mayfield Road and West Mains Road. It is about a nine-minute walk up to Blackford Hill and the Royal Observatory, and roughly five minutes from the King\u2019s Buildings.', ar: '٦١ طريق مايفيلد، EH9 3AA، مع مواقف على الطريق وفي الشوارع المجاورة، وباصات لوثيان على طريق مايفيلد وويست مينز رود. المسير نحو تسع دقائق صعودًا إلى تل بلاكفورد والمرصد الملكي، وحوالي خمس دقائق من كينغز بيلدينغز.' } },
+      { q: { en: 'What if I need to cancel?', ar: 'وإذا احتجت إلى الإلغاء؟' }, a: { en: 'Change or release a table up to two hours before the slot at no cost, by phone or by replying to the confirmation. Crowd orders of twenty or more may carry a holding deposit, confirmed in writing before anything is charged. PLACEHOLDER pending the kitchen\u2019s policy.', ar: 'يمكنك تغيير الطاولة أو إلغاؤها حتى ساعتين قبل الموعد دون مقابل، هاتفيًا أو بالرد على التأكيد. وقد يُطلب عربون لطلبات المجموعات من عشرين فأكثر، يُثبَّت كتابةً قبل أي خصم. عنصر مؤقت حتى تُعتمد سياسة المطبخ.' } }
+    ],
+    routes: [
+      { t: { en: 'Match-day feed', ar: 'وجبة يوم المباراة' }, s: { en: '12 · trays + dips', ar: '١٢ شخصًا · صواني وصوصات' }, party: '12', tag: { en: 'Weekend', ar: 'نهاية الأسبوع' } },
+      { t: { en: 'Office Friday drop', ar: 'جمعة المكتب' }, s: { en: '10–20 · delivered', ar: '١٠–٢٠ · توصيل' }, party: '10', tag: { en: '12:30', ar: '١٢:٣٠' } },
+      { t: { en: 'Birthday table', ar: 'طاولة عيد ميلاد' }, s: { en: '8 · candles + shake round', ar: '٨ أشخاص · شموع ودور ميلك شيك' }, party: '8', tag: { en: 'Cake', ar: 'كيك' } },
+      { t: { en: 'Society night', ar: 'أمسية الجمعية' }, s: { en: '12–25 · fixed tray price', ar: '١٢–٢٥ · سعر ثابت للصينية' }, party: '12', tag: { en: 'Uni', ar: 'جامعة' } },
+      { t: { en: 'Move-in feed', ar: 'وجبة الانتقال' }, s: { en: '6 · boxes and bottles', ar: '٦ أشخاص · علب وزجاجات' }, party: '6', tag: { en: 'New flat', ar: 'بيت جديد' } },
+      { t: { en: 'Post-hill supper', ar: 'عشاء بعد المشي' }, s: { en: '4 · after Blackford Hill', ar: '٤ أشخاص · بعد تل بلاكفورد' }, party: '4', tag: { en: 'Golden hour', ar: 'الغروب' } },
+      { t: { en: 'Kids\u2019 party box', ar: 'صندوق حفلة الأطفال' }, s: { en: '10 kids · minis + nuggets', ar: '١٠ أطفال · وجبات صغيرة وناغتس' }, party: '10', tag: { en: 'Family', ar: 'عائلي' } },
+      { t: { en: 'Graduation day', ar: 'يوم التخرّج' }, s: { en: '15 · King\u2019s Buildings', ar: '١٥ شخصًا · كينغز بيلدينغز' }, party: '12', tag: { en: 'July', ar: 'يوليو' } },
+      { t: { en: 'Late film-night platter', ar: 'صينية السهرة' }, s: { en: '4 · loaded fries + wings', ar: '٤ أشخاص · بطاطس محمّلة وأجنحة' }, party: '4', tag: { en: '21:00', ar: '٢١:٠٠' } }
+    ],
+    matcher: [
+      { id: 'q1', q: 'matcherQ1', opts: [
+        { v: 'one', en: 'Just me', ar: 'أنا فقط' },
+        { v: 'two', en: 'Two of us', ar: 'شخصان' },
+        { v: 'few', en: 'Three to five', ar: 'من ثلاثة إلى خمسة' },
+        { v: 'many', en: 'Six or more', ar: 'ستة أو أكثر' } ] },
+      { id: 'q2', q: 'matcherQ2', opts: [
+        { v: 'light', en: 'Something quick', ar: 'شيء سريع' },
+        { v: 'proper', en: 'A proper dinner', ar: 'عشاء دسم' },
+        { v: 'feast', en: 'Take on the board', ar: 'نأكل كل شيء' } ] },
+      { id: 'q3', q: 'matcherQ3', opts: [
+        { v: 'mild', en: 'Mild and saucy', ar: 'معتدل وبصوص' },
+        { v: 'fire', en: 'Bring the heat', ar: 'أريد الحار' },
+        { v: 'sweet', en: 'Save me a shake', ar: 'احفظ لي ميلك شيك' } ] }
+    ],
+    matches: [
+      { id: 'mayfield', t: { en: 'The Mayfield Straight', ar: 'خط مايفيلد المباشر' }, c: { en: 'Bonnie Smash, a paper cone of fries and the house sauce. In, fed, out.', ar: 'بوني سماش، قمع بطاطس، وصوص المنزل. تدخل، تأكل، تخرج.' }, pick: { en: 'Bonnie Smash £6.95 · Fries £3.25 · Bonnie OG dip £1.50', ar: 'بوني سماش ٦٫٩٥ · بطاطس ٣٫٢٥ · صوص بوني أو جي ١٫٥٠' }, party: '1' },
+      { id: 'blackford', t: { en: 'The Blackford Double', ar: 'بلاكفورد المزدوج' }, c: { en: 'Smash XL and a loaded fries to share, because the two of you will fight over it anyway.', ar: 'سماش XL وبطاطس محمّلة للمشاركة، لأنكما ستتنافسان عليها.' }, pick: { en: 'Smash XL £8.50 ×2 · Bonnie Loaded Fries £8.50', ar: 'سماش XL ٨٫٥٠ ×٢ · بطاطس محمّلة ٨٫٥٠' }, party: '2' },
+      { id: 'observatory', t: { en: 'The Observatory Tower', ar: 'برج المرصد' }, c: { en: 'Bonnie Tower, wings finished hot, loaded fries and a round of shakes. Built for a table that came uphill hungry.', ar: 'بوني تاور، أجنحة حارة، بطاطس محمّلة، ودور ميلك شيك. لطاولة صعدت التل جائعة.' }, pick: { en: 'Bonnie Tower £12.50 · 12 wings £6.95 · Loaded Fries · 2 shakes', ar: 'بوني تاور ١٢٫٥٠ · ١٢ جناحًا ٦٫٩٥ · بطاطس محمّلة · ميلك شيكان' }, party: '4' }
+    ]
+  };
+
+  /* ===================================================================
+     3. THEME · ACCENT · LANGUAGE
+     =================================================================== */
+  function applyTheme(theme) {
+    STATE.theme = theme;
+    document.documentElement.setAttribute('data-theme', theme);
+    BOOT.set(BOOT.K.theme, theme);
+    var btn = $('#themeBtn');
+    var dark = theme === 'dark';
+    btn.setAttribute('aria-pressed', String(dark));
+    btn.setAttribute('aria-label', dark ? T('themeToggle') + ' — light' : T('themeToggle') + ' — dark');
+    syncShaderPalette();
+  }
+  function applyAccent(accent) {
+    STATE.accent = accent;
+    document.documentElement.setAttribute('data-accent', accent);
+    BOOT.set(BOOT.K.accent, accent);
+    $$('#swatches .swatch').forEach(function (s) {
+      s.setAttribute('aria-pressed', String(s.getAttribute('data-accent-set') === accent));
+    });
+    syncShaderPalette();
+  }
+  function applyLang(lang, silent) {
+    STATE.lang = lang;
+    var root = document.documentElement;
+    root.setAttribute('lang', lang);
+    root.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
+    BOOT.set(BOOT.K.lang, lang);
+    $('#langSelect').value = lang;
+
+    $$('[data-i18n]').forEach(function (el) {
+      var v = STR[el.getAttribute('data-i18n')];
+      if (v) el.textContent = L(v);
+    });
+    $$('[data-i18n-html]').forEach(function (el) {
+      var v = STR[el.getAttribute('data-i18n-html')];
+      if (v) el.innerHTML = L(v);
+    });
+    $$('[data-i18n-aria]').forEach(function (el) {
+      var v = STR[el.getAttribute('data-i18n-aria')];
+      if (v) el.setAttribute('aria-label', L(v) + (lang === 'ar' ? '' : ' — ' + (STATE.theme === 'dark' ? 'light' : 'dark')));
+    });
+    $$('[data-i18n-ph]').forEach(function (el) {
+      var v = STR[el.getAttribute('data-i18n-ph')];
+      if (v) el.setAttribute('placeholder', L(v));
+    });
+
+    /* re-localise every dynamic surface */
+    renderTrustbar(); renderExperience(); renderTabs(); renderPanels(); renderLegend();
+    renderProvenance(); renderStats(); renderReviews(); renderFaq(); renderRoutes(); renderMatcher();
+    renderHours(); renderModes(); renderNeeds(); renderModeOptions(); renderRouteOptions();
+    renderSlots(); renderSummary(); renderMatch();
+    if (STATE.tip) renderTipAmounts();
+    var cp = $('#confirmPane');
+    if (cp && !cp.hidden && STATE.lastBooking) renderConfirm(STATE.lastBooking);
+    if (!silent) announce(T('langLabel') + ': ' + (lang === 'ar' ? 'العربية' : 'English'));
+    syncShaderPalette();
+  }
+  function announce(msg) {
+    var el = $('#live');
+    el.textContent = msg;
+    el.classList.add('on');
+    clearTimeout(announce._t);
+    announce._t = setTimeout(function () { el.classList.remove('on'); }, 4200);
+  }
+
+  /* ===================================================================
+     4. RENDERERS
+     =================================================================== */
+  function renderTrustbar() {
+    $('#trustbar').innerHTML = DATA.trustbar.map(function (t) {
+      return '<span class="chip"><span class="dot"></span>' + L(t) + '</span>';
+    }).join('');
+  }
+  function renderExperience() {
+    $('#tiltCards').innerHTML = DATA.experience.map(function (c, i) {
+      return '<article class="card tilt reveal" data-tilt style="--d:' + (i * 90) + 'ms">' +
+        '<div class="tilt-media"><img src="img/' + c.img + '" width="' + c.w + '" height="' + c.h + '" loading="lazy" alt="' + L(c.t) + '"></div>' +
+        '<h3 class="display" style="font-size:1.25rem">' + L(c.t) + '</h3>' +
+        '<p class="muted" style="font-size:.92rem;margin-top:.5rem">' + L(c.c) + '</p>' +
+        '<p class="note" style="margin-top:.7rem"><span class="pill-note">' + L(c.tag) + '</span></p>' +
+        '</article>';
+    }).join('');
+    bindTilt(); observeReveals();
+  }
+  function renderTabs() {
+    var tl = $('#tablist');
+    tl.setAttribute('aria-label', T('a11yTabs'));
+    tl.setAttribute('role', 'tablist');
+    tl.innerHTML = DATA.menu.map(function (s) {
+      var on = s.id === STATE.tab;
+      return '<button class="tab" role="tab" id="tab-' + s.id + '" aria-controls="panel-' + s.id + '" ' +
+        'aria-selected="' + on + '" tabindex="' + (on ? '0' : '-1') + '" data-tab="' + s.id + '">' + L(s) + '</button>';
+    }).join('');
+  }
+  function renderPanels() {
+    var sec = DATA.menu.filter(function (s) { return s.id === STATE.tab; })[0] || DATA.menu[0];
+    var items = sec.items.filter(function (it) {
+      return !STATE.dietFilter || (it.chips && it.chips.indexOf(STATE.dietFilter) > -1);
+    });
+    $('#panels').innerHTML = '<div role="tabpanel" id="panel-' + sec.id + '" aria-labelledby="tab-' + sec.id + '" tabindex="0">' +
+      '<ul class="mlist">' + items.map(function (it) {
+        return '<li class="mitem">' +
+          '<div class="mrow"><span class="mname latn" lang="en" dir="ltr">' + it.n + '</span>' +
+          '<span class="mlead" aria-hidden="true"></span><span class="mprice">' + it.p + '</span></div>' +
+          '<p class="mdesc">' + L(it.d) + '</p>' +
+          (it.chips ? '<div class="mchips">' + it.chips.map(function (c) {
+            return '<span class="mchip" title="' + (c === 'V' ? T('chipV') : c === 'VG' ? T('chipVG') : T('chipGF')) + '">' + c + '</span>';
+          }).join('') + '</div>' : '') +
+          '</li>';
+      }).join('') + '</ul>' +
+      (items.length ? '' : '<p class="muted">' + T('filterOff') + '</p>') + '</div>';
+    /* sticky figure cross-fade */
+    var stack = $('#figStack');
+    stack.innerHTML = DATA.menu.map(function (s) {
+      return '<img src="img/' + s.img + '" width="' + s.w + '" height="' + s.h + '" loading="lazy" alt="' + L(s.cap) + '" class="' + (s.id === sec.id ? 'on' : '') + '">';
+    }).join('');
+    $('#figCap').textContent = L(sec.cap);
+  }
+  function renderLegend() {
+    $('#legend').innerHTML = ['V', 'VG', 'GF'].map(function (c) {
+      var on = STATE.dietFilter === c;
+      var lab = c === 'V' ? T('chipV') : c === 'VG' ? T('chipVG') : T('chipGF');
+      return '<button type="button" data-diet="' + c + '" aria-pressed="' + on + '">' + lab + '</button>';
+    }).join('') +
+      '<button type="button" data-diet-link="1">' + T('legendAdd') + '</button>' +
+      '<span class="note" style="flex:1 1 220px">' + T('legendNote') + '</span>';
+  }
+  function renderProvenance() {
+    $('#provList').innerHTML = DATA.provenance.map(function (p) {
+      return '<li><b>' + L(p) + '</b><span class="latn" lang="en" dir="ltr">' + p.d + '</span></li>';
+    }).join('');
+  }
+  function renderHours() {
+    var days = L(STR.hoursDays);
+    $('#footHoursList').innerHTML = days.map(function (d, i) {
+      var h = DATA.hours[i];
+      var v = h ? '<span class="latn" lang="en" dir="ltr">' + h[0] + '–' + h[1] + '</span>' : '<span>' + T('closedWord') + '</span>';
+      return '<li><span>' + d + '</span> ' + v + '</li>';
+    }).join('');
+  }
+  function renderStats() {
+    $('#stats').innerHTML = DATA.stats.map(function (s, i) {
+      var settled = countersInstant() || STATE.countersDone;
+      return '<div class="card stat reveal" style="--d:' + (i * 90) + 'ms">' +
+        '<div class="num" data-count="' + s.v + '" data-dec="' + s.dec + '">' + (settled ? fmtNum(s.v, s.dec) : fmtNum(0, s.dec)) + '</div>' +
+        '<div class="lab">' + T(s.lab) + '</div></div>';
+    }).join('') +
+      '<p class="note" style="grid-column:1/-1;text-align:center">' + T('statNote') + '</p>';
+    observeReveals(); observeCounters();
+  }
+  function renderReviews() {
+    $('#reviewWall').innerHTML = DATA.reviews.map(function (r, i) {
+      return '<article class="card review reveal" style="--d:' + (i * 90) + 'ms">' +
+        '<div class="stars" aria-hidden="true">' + '★★★★★'.slice(0, r.r) + '<span style="opacity:.28">' + '★★★★★'.slice(0, 5 - r.r) + '</span></div>' +
+        '<blockquote lang="en" dir="ltr" class="latn">“' + r.q + '”</blockquote>' +
+        '<footer>' + r.n + ' · ' + T('reviewSource') + '</footer></article>';
+    }).join('');
+    observeReveals();
+  }
+  function renderFaq() {
+    $('#faqList').innerHTML = DATA.faq.map(function (f) {
+      return '<details class="q reveal"><summary>' + L(f.q) + '</summary><div class="a">' + L(f.a) + '</div></details>';
+    }).join('');
+    observeReveals();
+  }
+  function renderRouteOptions() {
+    var sel = $('#bRoute');
+    var cur = sel.value;
+    sel.innerHTML = '<option value="">' + T('routeNone') + '</option>' +
+      DATA.routes.map(function (r, i) { return '<option value="' + i + '">' + L(r.t) + ' — ' + L(r.s) + '</option>'; }).join('');
+    sel.value = cur;
+  }
+  function renderRoutes() {
+    $('#routeGrid').innerHTML = DATA.routes.map(function (r, i) {
+      return '<button class="route reveal" type="button" data-route="' + i + '" style="--d:' + (i * 90) + 'ms">' +
+        '<b>' + L(r.t) + '</b><small>' + L(r.s) + '</small><br><span class="pill-note" style="margin-top:.5rem">' + L(r.tag) + '</span></button>';
+    }).join('');
+    observeReveals();
+  }
+  function renderMatcher() {
+    if (STATE.match && STATE.match.answered === 3) return; /* keep finished state */
+    var ans = STATE.match ? STATE.match.answers : {};
+    var step = Math.min(Object.keys(ans).length, 2);
+    $('#matcherStep').textContent = STATE.lang === 'ar'
+      ? 'السؤال ' + (step + 1) + ' من ٣'
+      : 'Question ' + (step + 1) + ' of 3';
+    $('#matcherBar').style.width = ((step / 3) * 100) + '%';
+    $('#matcherBody').innerHTML = DATA.matcher.map(function (q, qi) {
+      return '<div class="q-block"><p class="q-label">' + T(q.q) + '</p><div class="opts" role="group" aria-label="' + T(q.q) + '">' +
+        q.opts.map(function (o) {
+          var on = ans[q.id] === o.v;
+          return '<button class="opt" type="button" data-q="' + q.id + '" data-v="' + o.v + '" aria-pressed="' + on + '">' + L(o) + '</button>';
+        }).join('') + '</div></div>';
+    }).join('');
+  }
+  function renderMatch() {
+    var m = STATE.match;
+    var nameEl = $('#matchName'), copyEl = $('#matchCopy'), rows = $('#matchRows'), fill = $('#matcherFill');
+    if (!m || !m.result) {
+      nameEl.textContent = T('matcherIdle'); copyEl.textContent = T('matcherIdleCopy');
+      rows.hidden = true; fill.hidden = true; return;
+    }
+    var res = m.result;
+    nameEl.textContent = L(res.t);
+    copyEl.textContent = L(res.c);
+    rows.hidden = false; fill.hidden = false;
+    rows.innerHTML = '<li><span>' + T('sumParty') + '</span><span>' + res.party + '</span></li>' +
+      '<li><span>' + T('matchPicks') + '</span><span class="latn" lang="en" dir="ltr">' + L(res.pick) + '</span></li>';
+  }
+  function renderModeOptions() {
+    $('#modeOpts').innerHTML = [
+      { v: 'collection', l: T('modeCollection') },
+      { v: 'eatin', l: T('modeEatin') },
+      { v: 'delivery', l: T('modeDelivery') }
+    ].map(function (o) {
+      return '<button class="opt" type="button" data-mode="' + o.v + '" aria-pressed="' + (STATE.mode === o.v) + '">' + o.l + '</button>';
+    }).join('');
+  }
+  function renderModes() { renderModeOptions(); }
+  function renderNeeds() {
+    var NEEDS = [
+      { v: 'access', l: T('needAccess') }, { v: 'highchair', l: T('needHighchair') },
+      { v: 'dog', l: T('needDog') }, { v: 'quiet', l: T('needQuiet') }, { v: 'candle', l: T('needPic') }
+    ];
+    $('#needsOpts').innerHTML = NEEDS.map(function (o) {
+      var on = STATE.needs.indexOf(o.v) > -1;
+      return '<button class="opt" type="button" data-need="' + o.v + '" aria-pressed="' + on + '">' + o.l + '</button>';
+    }).join('');
+  }
+  /* ---- time slots: disabled-by-design guards ---- */
+  function slotsFor(dateStr) {
+    var out = [];
+    var d = dateStr ? new Date(dateStr + 'T12:00:00') : new Date();
+    var dow = d.getDay();
+    var open = DATA.hours[dow];
+    if (!open) return { slots: [], reason: T('slotTue'), open: false };
+    var t = 17 * 60 + 10, end = 21 * 60 + 30;
+    for (; t <= end; t += 10) {
+      out.push(pad(Math.floor(t / 60)) + ':' + pad(t % 60));
+    }
+    var live = out.filter(function (s) { return s <= open[1]; });
+    return { slots: live, reason: T('slotOpen'), open: true };
+  }
+  function pad(n) { return (n < 10 ? '0' : '') + n; }
+  function renderSlots() {
+    var wrap = $('#slotWrap');
+    wrap.setAttribute('aria-label', T('a11ySlots'));
+    var r = slotsFor(STATE.date);
+    var html = r.slots.map(function (s) {
+      var on = STATE.time === s;
+      return '<button class="slot latn" lang="en" dir="ltr" type="button" data-slot="' + s + '" aria-pressed="' + on + '">' + s + '</button>';
+    }).join('');
+    if (!r.open) html = '<span class="slot slot-dayoff" aria-disabled="true" role="button" tabindex="-1">' + T('closedWord') + '</span>';
+    /* daytime guard: shown, struck out, explained — never colour-only */
+    html += '<span class="slot slot-dayoff" aria-disabled="true" role="button" tabindex="-1">' + T('slotLunch') + '</span>';
+    wrap.innerHTML = html;
+    $('#slotHint').textContent = r.reason + (r.open ? ' ' + T('slotNote') : '');
+  }
+  function renderSummary() {
+    var d = STATE.lastBooking || null;
+    var dateTxt = STATE.date ? fmtDate(STATE.date) : T('emptyDash');
+    var mode = { collection: T('modeCollection'), eatin: T('modeEatin'), delivery: T('modeDelivery') }[STATE.mode];
+    var diet = $('#bDiet') ? $('#bDiet').selectedOptions[0].textContent : T('dietNone');
+    var occ = $('#bOccasion') ? $('#bOccasion').selectedOptions[0].textContent : T('occNo');
+    var party = $('#bParty') ? $('#bParty').selectedOptions[0].textContent : '2';
+    var route = $('#bRoute') && $('#bRoute').value !== '' ? $('#bRoute').selectedOptions[0].textContent : null;
+    var needs = STATE.needs.length ? $$('#needsOpts [aria-pressed="true"]').map(function (b) { return b.textContent; }).join(' · ') : null;
+    $('#sumRows').innerHTML =
+      row(T('sumDate'), dateTxt) +
+      row(T('sumTime'), STATE.time ? '<span class="latn" lang="en" dir="ltr">' + STATE.time + '</span>' : T('emptyDash')) +
+      row(T('sumParty'), party) +
+      row(T('sumMode'), mode) +
+      row(T('sumDiet'), diet) +
+      row(T('sumOcc'), occ) +
+      (route ? row(T('sumRoute'), route) : '') +
+      (needs ? row(T('sumNeeds'), needs) : '') +
+      (STATE.match && STATE.match.result ? row(T('sumMatch'), L(STATE.match.result.t)) : '') +
+      (STATE.tip ? row(T('sumTipRow'), '<span class="latn" lang="en" dir="ltr">£' + STATE.tip + '</span>') : '');
+  }
+  function row(k, v) { return '<li><span>' + k + '</span><span>' + v + '</span></li>'; }
+
+  /* ===================================================================
+     5. NUMBER / DATE LOCALISATION
+     =================================================================== */
+  function fmtNum(n, dec) {
+    try {
+      return new Intl.NumberFormat(STATE.lang === 'ar' ? 'ar-EG' : 'en-GB',
+        { minimumFractionDigits: dec, maximumFractionDigits: dec }).format(n);
+    } catch (e) { return String(n); }
+  }
+  function fmtDate(s) {
+    try {
+      var d = new Date(s + 'T12:00:00');
+      return new Intl.DateTimeFormat(STATE.lang === 'ar' ? 'ar-EG' : 'en-GB',
+        { weekday: 'short', day: 'numeric', month: 'short' }).format(d);
+    } catch (e) { return s; }
+  }
+  function countersInstant() {
+    return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  }
+
+  /* ===================================================================
+     6. WEBGL2 "LIQUID LIGHT" — with 2D canvas + still fallbacks
+     =================================================================== */
+  var GL = { mode: 'pending', raf: 0, raf2d: false, visible: true, uniforms: null, accent: [0.83, 0.69, 0.22],
+             star: 1, ribbon: 1, vig: 1, bg: [0.03, 0.05, 0.07] };
+  function cssRGB(name) {
+    var v = getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+    var m = v.match(/#([0-9a-f]{6})/i);
+    if (m) {
+      var h = m[1];
+      return [parseInt(h.slice(0, 2), 16) / 255, parseInt(h.slice(2, 4), 16) / 255, parseInt(h.slice(4, 6), 16) / 255];
+    }
+    var r = v.match(/rgba?\(([^)]+)\)/);
+    if (r) { var p = r[1].split(',').map(Number); return [p[0] / 255, p[1] / 255, p[2] / 255]; }
+    return [0.83, 0.69, 0.22];
+  }
+  function syncShaderPalette() {
+    var acc = cssRGB('--accent');
+    var bg = cssRGB('--bg');
+    GL.accent = acc;
+    GL.bg = bg;
+    /* the same light, tuned twice: night gets starfield + deep vignette,
+       daylight gets quiet warm caustics and no stars */
+    GL.star = STATE.theme === 'dark' ? 1 : 0;
+    GL.ribbon = STATE.theme === 'dark' ? 1.42 : 0.62;
+    GL.vig = STATE.theme === 'dark' ? 1.0 : 0.35;
+    if (GL.uniforms) {
+      var gl = GL.uniforms.gl;
+      gl.useProgram(GL.uniforms.prog);
+      gl.uniform3fv(GL.uniforms.uAccent, acc);
+      gl.uniform3fv(GL.uniforms.uBg, bg);
+      gl.uniform1f(GL.uniforms.uStar, GL.star);
+      gl.uniform1f(GL.uniforms.uRibbon, GL.ribbon);
+      gl.uniform1f(GL.uniforms.uVig, GL.vig);
+    }
+    paint2DOnce(true);
+    window.__BB.shaderPalette = { accent: acc, bg: bg, mode: GL.mode };
+  }
+  function initHero() {
+    var still = $('#heroStill');
+    var glc = $('#gl'), c2 = $('#gl2d');
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduce) {
+      GL.mode = 'static';
+      glc.hidden = true; c2.hidden = true; still.hidden = false;
+      STATE.heroMode = 'static';
+      return;
+    }
+    var gl = null;
+    try { gl = glc.getContext('webgl2', { antialias: false, alpha: false, powerPreference: 'low-power' }); } catch (e) { gl = null; }
+    if (gl) {
+      var prog = buildProgram(gl);
+      if (prog) {
+        glc.hidden = false; c2.hidden = true; still.hidden = true;
+        GL.mode = 'webgl2'; STATE.heroMode = 'webgl2';
+        GL.uniforms = prog;
+        sizeCanvas(glc);
+        loopGL();
+        glc.addEventListener('webglcontextlost', function (e) {
+          e.preventDefault();
+          cancelAnimationFrame(GL.raf);
+          fallback2D('context lost');
+        }, false);
+      } else { gl = null; }
+    }
+    if (!gl) fallback2D('no webgl2');
+    window.__BB.shaderPalette = { accent: GL.accent, bg: GL.bg || cssRGB('--bg'), mode: GL.mode };
+  }
+  /* fallback chain: webgl2 -> 2d canvas -> static still (§5) */
+  function fallback2D(why) {
+    var glc = $('#gl'), c2 = $('#gl2d'), still = $('#heroStill');
+    glc.hidden = true;
+    var ctx2 = null;
+    try { ctx2 = c2.getContext('2d'); } catch (e) { ctx2 = null; }
+    if (ctx2) {
+      c2.hidden = false; still.hidden = true;
+      GL.mode = 'canvas2d'; STATE.heroMode = 'canvas2d';
+      sizeCanvas(c2);
+      paint2DOnce(true);
+      if (!GL.raf2d) { GL.raf2d = true; loop2D(); }
+    } else {
+      c2.hidden = true; still.hidden = false;
+      GL.mode = 'static'; STATE.heroMode = 'static';
+    }
+    window.__BB.heroFallback = why;
+    window.__BB.shaderPalette = { accent: GL.accent, bg: GL.bg, mode: GL.mode };
+  }
+  function buildProgram(gl) {
+    var VS = '#version 300 es\nin vec2 a;void main(){gl_Position=vec4(a,0.0,1.0);}';
+    var FS = [
+      '#version 300 es', 'precision highp float;', 'out vec4 o;',
+      'uniform vec2 u_res;uniform float u_time;uniform vec2 u_ptr;uniform vec3 u_accent;uniform vec3 u_bg;uniform float u_motion;uniform float u_star;uniform float u_ribbon;uniform float u_vig;',
+      'float hash(vec2 p){p=fract(p*vec2(123.34,345.45));p+=dot(p,p+34.345);return fract(p.x*p.y);}',
+      'float noise(vec2 p){vec2 i=floor(p),f=fract(p);f=f*f*(3.0-2.0*f);',
+      'float a=hash(i),b=hash(i+vec2(1.,0.)),c=hash(i+vec2(0.,1.)),d=hash(i+vec2(1.,1.));',
+      'return mix(mix(a,b,f.x),mix(c,d,f.x),f.y);}',
+      'float fbm(vec2 p){float v=0.,a=.5;for(int i=0;i<5;i++){v+=a*noise(p);p*=2.02;a*=.5;}return v;}',
+      'void main(){',
+      'vec2 uv=gl_FragCoord.xy/u_res.xy;',
+      'vec2 p=(gl_FragCoord.xy-0.5*u_res.xy)/u_res.y;',
+      'float t=u_time*u_motion;',
+      'float n1=fbm(p*2.60+vec2(t*0.050,-t*0.030));',
+      'float n2=fbm(p*4.40-vec2(t*0.080, t*0.050));',
+      'float warp=n1*1.65;',
+      'float b1=sin((p.y*3.60+warp      +t*0.16)*2.0);',
+      'float b2=sin((p.y*5.40-warp*0.70 -t*0.11)*2.0);',
+      'float fil=smoothstep(0.80,1.0,abs(b1))*0.75+smoothstep(0.88,1.0,abs(b2))*0.45;',
+      'float sheet=smoothstep(-0.15,0.90,n2)*0.22;',
+      'vec2 sc=uv*vec2(u_res.x/u_res.y,1.0)*90.0;vec2 si=floor(sc);float sh=hash(si);',
+      'float star=step(0.9935,sh)*(0.5+0.5*sin(t*1.6+sh*40.0))*u_star;',
+      'float d=length((gl_FragCoord.xy-u_ptr)/u_res.y);float glow=exp(-d*4.0);',
+      'vec3 col=u_bg;',
+      'col+=u_accent*(fil*0.55+sheet*0.35)*u_ribbon;',
+      'col+=u_accent*0.065*pow(max(0.0,1.0-uv.y),2.0)*u_ribbon;',
+      'col+=u_accent*glow*0.22;',
+      'col+=vec3(0.86,0.89,0.96)*star*0.55;',
+      'col*=1.0-u_vig*0.26*pow(length(uv-0.5)*1.30,2.0);',
+      'o=vec4(col,1.0);}'
+    ].join('\n');
+    function sh(type, src) {
+      var s = gl.createShader(type); gl.shaderSource(s, src); gl.compileShader(s);
+      if (!gl.getShaderParameter(s, gl.COMPILE_STATUS)) {
+        console.error('[BB] shader compile failed: ' + gl.getShaderInfoLog(s));   /* loud, never silent */
+        return null;
+      }
+      return s;
+    }
+    var v = sh(gl.VERTEX_SHADER, VS), f = sh(gl.FRAGMENT_SHADER, FS);
+    if (!v || !f) return null;
+    var prog = gl.createProgram(); gl.attachShader(prog, v); gl.attachShader(prog, f); gl.linkProgram(prog);
+    if (!gl.getProgramParameter(prog, gl.LINK_STATUS)) {
+      console.error('[BB] program link failed: ' + gl.getProgramInfoLog(prog));
+      return null;
+    }
+    gl.useProgram(prog);
+    var buf = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 3, -1, -1, 3]), gl.STATIC_DRAW);
+    var loc = gl.getAttribLocation(prog, 'a');
+    gl.enableVertexAttribArray(loc);
+    gl.vertexAttribPointer(loc, 2, gl.FLOAT, false, 0, 0);
+    return {
+      gl: gl, prog: prog,
+      uRes: gl.getUniformLocation(prog, 'u_res'), uTime: gl.getUniformLocation(prog, 'u_time'),
+      uPtr: gl.getUniformLocation(prog, 'u_ptr'), uAccent: gl.getUniformLocation(prog, 'u_accent'),
+      uBg: gl.getUniformLocation(prog, 'u_bg'), uMotion: gl.getUniformLocation(prog, 'u_motion'),
+      uStar: gl.getUniformLocation(prog, 'u_star'), uRibbon: gl.getUniformLocation(prog, 'u_ribbon'),
+      uVig: gl.getUniformLocation(prog, 'u_vig'),
+      t0: performance.now(), ptr: [0, 0]
+    };
+  }
+  function sizeCanvas(cv) {
+    var w = cv.clientWidth || cv.parentElement.clientWidth || 1280;
+    var h = cv.clientHeight || cv.parentElement.clientHeight || 720;
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);          /* DPR <= 2 (§5) */
+    cv.width = Math.max(1, Math.round(w * dpr));
+    cv.height = Math.max(1, Math.round(h * dpr));
+    if (GL.uniforms && GL.mode === 'webgl2') {
+      GL.uniforms.gl.viewport(0, 0, cv.width, cv.height);
+      GL.uniforms.gl.useProgram(GL.uniforms.prog);
+      GL.uniforms.gl.uniform2f(GL.uniforms.uRes, cv.width, cv.height);
+      GL.uniforms.gl.uniform1f(GL.uniforms.uMotion, (window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 1));
+    }
+  }
+  function canAnimate() {
+    return GL.visible && !document.hidden && GL.mode !== 'static';
+  }
+  function loopGL() {
+    var u = GL.uniforms;
+    if (!u) return;
+    var cv = $('#gl');
+    function frame() {
+      GL.raf = requestAnimationFrame(frame);
+      /* paused off-screen and on tab-hide (§5) */
+      if (!canAnimate()) return;
+      var gl = u.gl;
+      gl.useProgram(u.prog);
+      var w = cv.width, h = cv.height;
+      gl.uniform1f(u.uTime, (performance.now() - u.t0) / 1000);
+      gl.uniform2f(u.uPtr, u.ptr[0], u.ptr[1]);
+      gl.drawArrays(gl.TRIANGLES, 0, 3);
+    }
+    GL.raf = requestAnimationFrame(frame);
+  }
+  function loop2D() {
+    function frame() {
+      GL.raf = requestAnimationFrame(frame);
+      if (!canAnimate()) return;
+      paint2DOnce(false);
+    }
+    GL.raf = requestAnimationFrame(frame);
+  }
+  function paint2DOnce(staticOnly) {
+    if (GL.mode !== 'canvas2d') return;
+    var cv = $('#gl2d'); if (!cv || !cv.getContext) return;
+    var ctx = cv.getContext('2d'); if (!ctx) return;
+    var w = cv.width, h = cv.height, t = staticOnly ? 1.4 : (performance.now() / 1000);
+    var acc = GL.accent || [0.83, 0.69, 0.22], bg = GL.bg || [0.03, 0.05, 0.07];
+    ctx.fillStyle = 'rgb(' + Math.round(bg[0] * 255) + ',' + Math.round(bg[1] * 255) + ',' + Math.round(bg[2] * 255) + ')';
+    ctx.fillRect(0, 0, w, h);
+    for (var i = 0; i < 5; i++) {
+      ctx.beginPath();
+      var amp = h * (0.07 + i * 0.02), y0 = h * (0.28 + i * 0.13);
+      ctx.moveTo(0, y0);
+      for (var x = 0; x <= w; x += 18) {
+        var y = y0 + Math.sin(x / (170 + i * 40) + t * (0.32 + i * 0.08)) * amp
+          + Math.sin(x / (61 + i * 13) - t * 0.5) * amp * 0.28;
+        ctx.lineTo(x, y);
+      }
+      ctx.strokeStyle = 'rgba(' + Math.round(acc[0] * 255) + ',' + Math.round(acc[1] * 255) + ',' + Math.round(acc[2] * 255) + ',' + ((0.13 - i * 0.017) * GL.ribbon).toFixed(3) + ')';
+      ctx.lineWidth = Math.max(2, h * 0.012);
+      ctx.stroke();
+    }
+    for (var s = 0; GL.star && s < 90; s++) {
+      var sx = (s * 7919 % w), sy = (s * 104729 % h), tw = 0.25 + 0.25 * Math.sin(t + s);
+      ctx.fillStyle = 'rgba(230,235,245,' + (tw * 0.5) + ')';
+      ctx.fillRect(sx, sy, 2, 2);
+    }
+    var ptr = GL.uniforms ? GL.uniforms.ptr : [w / 2, h / 2];
+    var g = ctx.createRadialGradient(ptr[0], h - ptr[1], 0, ptr[0], h - ptr[1], h * 0.5);
+    g.addColorStop(0, 'rgba(' + Math.round(acc[0] * 255) + ',' + Math.round(acc[1] * 255) + ',' + Math.round(acc[2] * 255) + ',0.26)');
+    g.addColorStop(1, 'rgba(0,0,0,0)');
+    ctx.fillStyle = g; ctx.fillRect(0, 0, w, h);
+  }
+  function bindHeroInteractions() {
+    var glc = $('#gl'), hero = $('#top');
+    function toCanvas(e) {
+      if (!GL.uniforms) return;
+      var r = glc.getBoundingClientRect();
+      var dpr = glc.width / Math.max(1, r.width);
+      GL.uniforms.ptr[0] = (e.clientX - r.left) * dpr;
+      GL.uniforms.ptr[1] = glc.height - (e.clientY - r.top) * dpr;
+    }
+    hero.addEventListener('pointermove', toCanvas, { passive: true });
+    /* magnetic labelled cursor — off on touch and under reduced motion */
+    var fine = window.matchMedia('(pointer: fine)').matches && !countersInstant();
+    var cur = $('#cursor'), lab = $('#cursorLabel');
+    if (!fine) { cur.style.display = 'none'; return; }
+    var cx = 0, cy = 0, tx = 0, ty = 0, mag = null;
+    document.addEventListener('pointermove', function (e) {
+      tx = e.clientX; ty = e.clientY;
+      var el = e.target.closest ? e.target.closest('[data-cursor]') : null;
+      if (el) {
+        mag = el;
+        cur.classList.add('on');
+        lab.textContent = el.getAttribute('data-cursor');
+      } else { mag = null; cur.classList.remove('on'); }
+    }, { passive: true });
+    (function follow() {
+      var base = 0;
+      if (mag) {
+        var r = mag.getBoundingClientRect();
+        tx = tx + ((r.left + r.width / 2) - tx) * 0.24;   /* magnetic pull */
+        ty = ty + ((r.top + r.height / 2) - ty) * 0.24;
+        base = 22;
+      }
+      cx += (tx - cx) * 0.22; cy += (ty - cy) * 0.22;
+      var size = base || 26;
+      cur.style.width = size + 'px'; cur.style.height = size + 'px';
+      cur.style.transform = 'translate3d(' + (cx - size / 2) + 'px,' + (cy - size / 2) + 'px,0)';
+      requestAnimationFrame(follow);
+    })();
+  }
+
+  /* ===================================================================
+     7. TILT CARDS (<= 9deg) — off on touch and under reduced motion
+     =================================================================== */
+  function bindTilt() {
+    if (window.matchMedia('(pointer: coarse)').matches || countersInstant()) return;
+    $$('[data-tilt]').forEach(function (card) {
+      card.addEventListener('pointermove', function (e) {
+        var r = card.getBoundingClientRect();
+        var px = (e.clientX - r.left) / r.width - 0.5;
+        var py = (e.clientY - r.top) / r.height - 0.5;
+        var ry = Math.max(-9, Math.min(9, px * 12));       /* <= 9deg */
+        var rx = Math.max(-9, Math.min(9, -py * 12));
+        card.style.transform = 'rotateX(' + rx.toFixed(2) + 'deg) rotateY(' + ry.toFixed(2) + 'deg) translateZ(0)';
+      });
+      card.addEventListener('pointerleave', function () { card.style.transform = ''; });
+    });
+  }
+
+  /* ===================================================================
+     8. REVEALS + COUNTERS
+     =================================================================== */
+  var revObs = null;
+  function observeReveals() {
+    if (countersInstant()) { $$('.reveal').forEach(function (el) { el.classList.add('in'); }); return; }
+    if (!('IntersectionObserver' in window)) { $$('.reveal').forEach(function (el) { el.classList.add('in'); }); return; }
+    if (!revObs) {
+      revObs = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) {
+          if (en.isIntersecting) { en.target.classList.add('in'); revObs.unobserve(en.target); }
+        });
+      }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+    }
+    $$('.reveal:not(.in)').forEach(function (el) { revObs.observe(el); });
+  }
+  var cntObs = null;
+  function observeCounters() {
+    var nums = $$('[data-count]');
+    if (STATE.countersDone && !countersInstant()) {
+      nums.forEach(function (n) { n.textContent = fmtNum(parseFloat(n.getAttribute('data-count')), parseInt(n.getAttribute('data-dec'), 10)); });
+      return;
+    }
+    if (countersInstant() || !('IntersectionObserver' in window)) {
+      nums.forEach(function (n) { n.textContent = fmtNum(parseFloat(n.getAttribute('data-count')), parseInt(n.getAttribute('data-dec'), 10)); });
+      return;
+    }
+    if (!cntObs) {
+      cntObs = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) {
+          if (!en.isIntersecting) return;
+          var el = en.target; cntObs.unobserve(el);
+          var target = parseFloat(el.getAttribute('data-count'));
+          var dec = parseInt(el.getAttribute('data-dec'), 10);
+          var t0 = performance.now(), dur = 1100;
+          (function tick(now) {
+            var p = Math.min(1, (now - t0) / dur);
+            var eased = 1 - Math.pow(1 - p, 3);
+            el.textContent = fmtNum(target * eased, dec);
+            if (p < 1) requestAnimationFrame(tick);
+            else { el.textContent = fmtNum(target, dec); STATE.countersDone = true; }
+          })(t0);
+        });
+      }, { threshold: 0.4 });
+    }
+    nums.forEach(function (n) { cntObs.observe(n); });
+  }
+
+  /* ===================================================================
+     9. INTERACTIONS
+     =================================================================== */
+  function bindDock() {
+    $('#themeBtn').addEventListener('click', function () {
+      applyTheme(STATE.theme === 'dark' ? 'light' : 'dark');
+      announce(T('themeToggle') + ': ' + STATE.theme);
+    });
+    $('#swatches').addEventListener('click', function (e) {
+      var b = e.target.closest('[data-accent-set]'); if (!b) return;
+      applyAccent(b.getAttribute('data-accent-set'));
+    });
+    $('#langSelect').addEventListener('change', function (e) { applyLang(e.target.value); });
+  }
+  function bindTabs() {
+    var tl = $('#tablist');
+    tl.addEventListener('click', function (e) {
+      var b = e.target.closest('[data-tab]'); if (!b) return;
+      selectTab(b.getAttribute('data-tab'), true);
+    });
+    tl.addEventListener('keydown', function (e) {
+      var tabs = $$('[data-tab]', tl);
+      var i = tabs.indexOf(document.activeElement);
+      if (i < 0) return;
+      var rtl = document.documentElement.getAttribute('dir') === 'rtl';
+      var next = null;
+      if (e.key === 'ArrowRight') next = i + (rtl ? -1 : 1);
+      else if (e.key === 'ArrowLeft') next = i + (rtl ? 1 : -1);
+      else if (e.key === 'Home') next = 0;
+      else if (e.key === 'End') next = tabs.length - 1;
+      else return;
+      e.preventDefault();
+      if (next < 0) next = tabs.length - 1;
+      if (next >= tabs.length) next = 0;
+      var id = tabs[next].getAttribute('data-tab');
+      selectTab(id, false);
+      $$('[data-tab]', tl)[next].focus();
+    });
+  }
+  function selectTab(id, focus) {
+    STATE.tab = id;
+    $$('[data-tab]', $('#tablist')).forEach(function (b) {
+      var on = b.getAttribute('data-tab') === id;
+      b.setAttribute('aria-selected', String(on));
+      b.tabIndex = on ? 0 : -1;
+      if (on && focus) b.focus();
+    });
+    renderPanels();
+  }
+  function bindLegend() {
+    $('#legend').addEventListener('click', function (e) {
+      var b = e.target.closest('[data-diet]');
+      var link = e.target.closest('[data-diet-link]');
+      if (b) {
+        var v = b.getAttribute('data-diet');
+        STATE.dietFilter = STATE.dietFilter === v ? null : v;
+        renderLegend(); renderPanels();
+        announce(STATE.dietFilter ? T('filterOn') + ': ' + v : T('filterOff'));
+      } else if (link) {
+        var sel = $('#bDiet');
+        var map = { V: 'veg', VG: 'vegan', GF: 'gf' };
+        sel.value = map[STATE.dietFilter] || 'none';
+        document.getElementById('book').scrollIntoView({ block: 'start' });
+        sel.focus();
+        renderSummary();
+        announce(T('legendAdd'));
+      }
+    });
+  }
+  function bindMatcher() {
+    $('#matcherBody').addEventListener('click', function (e) {
+      var b = e.target.closest('[data-q]'); if (!b) return;
+      STATE.match = STATE.match || { answers: {} };
+      STATE.match.answers[b.getAttribute('data-q')] = b.getAttribute('data-v');
+      var keys = Object.keys(STATE.match.answers);
+      if (keys.length === 3) {
+        var a = STATE.match.answers;
+        var res = a.q2 === 'feast' ? DATA.matches[2] : (a.q1 === 'one' && a.q2 === 'light') ? DATA.matches[0] : DATA.matches[1];
+        if (a.q1 === 'many') res = DATA.matches[2];
+        STATE.match.result = res;
+        STATE.match.answered = 3;
+        announce(T('matcherOutKicker') + ': ' + L(res.t));
+      }
+      renderMatcher(); renderMatch(); renderSummary();
+    });
+    $('#matcherFill').addEventListener('click', function () {
+      if (!STATE.match || !STATE.match.result) return;
+      var r = STATE.match.result;
+      $('#bParty').value = r.party;
+      STATE.mode = 'eatin';
+      var notes = $('#bNotes');
+      notes.value = (notes.value ? notes.value + ' · ' : '') + L(r.t) + ' — ' + L(r.pick);
+      renderModeOptions(); renderSummary();
+      document.getElementById('book').scrollIntoView({ block: 'start' });
+      setTimeout(function () { $('#bDate').focus(); }, 420);
+      announce(T('matcherFill'));
+    });
+  }
+  function bindBooking() {
+    var form = $('#bookForm');
+    form.addEventListener('click', function (e) {
+      var m = e.target.closest('[data-mode]');
+      if (m) { STATE.mode = m.getAttribute('data-mode'); renderModeOptions(); persistDefaults(); renderSummary(); return; }
+      var n = e.target.closest('[data-need]');
+      if (n) {
+        var v = n.getAttribute('data-need');
+        var i = STATE.needs.indexOf(v);
+        if (i > -1) STATE.needs.splice(i, 1); else STATE.needs.push(v);
+        renderNeeds(); persistDefaults(); renderSummary();
+        return;
+      }
+      var s = e.target.closest('[data-slot]');
+      if (s) {
+        STATE.time = s.getAttribute('data-slot');
+        $$('[data-slot]').forEach(function (x) { x.setAttribute('aria-pressed', String(x.getAttribute('data-slot') === STATE.time)); });
+        clearError('time'); renderSummary();
+        return;
+      }
+    });
+    ['bDate', 'bParty', 'bDiet', 'bOccasion', 'bRoute', 'bNotes', 'bName', 'bPhone'].forEach(function (id) {
+      var el = $('#' + id); if (!el) return;
+      el.addEventListener('change', function () {
+        if (id === 'bDate') { STATE.date = el.value; STATE.time = ''; renderSlots(); clearError('date'); }
+        persistDefaults(); renderSummary();
+      });
+      el.addEventListener('input', renderSummary);
+    });
+    $('#sumReset').addEventListener('click', function () {
+      form.reset(); STATE.needs = []; STATE.time = ''; STATE.match = null;
+      STATE.mode = 'collection'; STATE.tip = null;
+      try { localStorage.removeItem(BOOT.K.defaults); } catch (e) {}
+      $('#remembered').hidden = true;
+      renderModeOptions(); renderNeeds(); renderSlots(); renderMatcher(); renderMatch(); renderSummary();
+      announce(T('sumReset'));
+    });
+    form.addEventListener('submit', onSubmit);
+  }
+  function clearError(which) {
+    var map = { date: 'eDate', time: 'eTime', name: 'eName', phone: 'ePhone' };
+    var e = map[which];
+    if (!e) return;
+    var box = $('#' + e); if (box) { box.hidden = true; box.textContent = ''; }
+    var ctl = which === 'time' ? null : $('#' + (which === 'date' ? 'bDate' : which === 'name' ? 'bName' : 'bPhone'));
+    if (ctl) ctl.setAttribute('aria-invalid', 'false');
+  }
+  function onSubmit(e) {
+    e.preventDefault();
+    var problems = [];
+    var firstInvalid = null;
+    function flag(ctl, boxId, msg) {
+      problems.push(msg);
+      if (!firstInvalid) firstInvalid = ctl;
+      if (ctl) ctl.setAttribute('aria-invalid', 'true');
+      var box = $('#' + boxId);
+      if (box) { box.textContent = msg; box.hidden = false; }
+    }
+    if (!$('#bDate').value) flag($('#bDate'), 'eDate', T('errorDate'));
+    if (!STATE.time) flag(null, 'eTime', T('errorTime'));
+    if (!$('#bName').value.trim()) flag($('#bName'), 'eName', T('errorName'));
+    var ph = $('#bPhone').value.replace(/[^0-9]/g, '');
+    if (ph.length < 7) flag($('#bPhone'), 'ePhone', T('errorPhone'));
+
+    if (problems.length) {
+      var msg = T('errorNeeded') + ' ' + problems.join(', ');
+      var el = $('#live');
+      el.textContent = msg; el.classList.add('on');
+      clearTimeout(announce._t);
+      announce._t = setTimeout(function () { el.classList.remove('on'); }, 6000);
+      if (firstInvalid) { firstInvalid.focus(); }
+      else { $('#bDate').focus(); }
+      return;
+    }
+    STATE.lastBooking = {
+      date: STATE.date, time: STATE.time, party: $('#bParty').value,
+      mode: STATE.mode, needs: STATE.needs.slice(),
+      diet: $('#bDiet').selectedOptions[0].textContent,
+      occasion: $('#bOccasion').selectedOptions[0].textContent,
+      route: $('#bRoute').value !== '' ? $('#bRoute').selectedOptions[0].textContent : null,
+      name: $('#bName').value.trim(), phone: $('#bPhone').value.trim(),
+      match: STATE.match && STATE.match.result ? L(STATE.match.result.t) : null,
+      ref: 'BB-' + Math.random().toString(36).slice(2, 6).toUpperCase() + '-' + new Date().getDate()
+    };
+    persistDefaults();
+    renderConfirm(STATE.lastBooking);
+    $('#bookForm').hidden = true;
+    $('#confirmPane').hidden = false;
+    var btn = $('#confirmPane').querySelector('button');
+    if (btn) btn.focus();
+    announce(T('confirmTitle'));
+  }
+  function renderConfirm(b) {
+    var rows = [
+      row(T('confirmRef'), '<span class="latn" lang="en" dir="ltr">' + b.ref + '</span>'),
+      row(T('sumDate'), fmtDate(b.date)),
+      row(T('sumTime'), '<span class="latn" lang="en" dir="ltr">' + b.time + '</span>'),
+      row(T('sumParty'), b.party),
+      row(T('sumMode'), { collection: T('modeCollection'), eatin: T('modeEatin'), delivery: T('modeDelivery') }[b.mode]),
+      row(T('sumDiet'), b.diet),
+      row(T('sumOcc'), b.occasion)
+    ];
+    if (b.route) rows.push(row(T('sumRoute'), b.route));
+    if (b.match) rows.push(row(T('sumMatch'), b.match));
+    if (b.needs.length) rows.push(row(T('sumNeeds'), b.needs.join(' · ')));
+    $('#confirmPane').innerHTML =
+      '<div class="confirm-mark" aria-hidden="true">' +
+      '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 12.5l5 5L20 6.5"/></svg>' +
+      '</div>' +
+      '<h3 class="display" style="font-size:1.45rem">' + T('confirmTitle') + '</h3>' +
+      '<p class="muted">' + T('confirmCopy') + '</p>' +
+      '<ul class="sum-rows">' + rows.join('') + '</ul>' +
+      '<div style="display:flex;flex-wrap:wrap;gap:.5rem">' +
+      '<button class="btn btn-glass btn-sm" type="button" data-open-tip>' + T('confirmTip') + '</button>' +
+      '<a class="btn btn-ghost btn-sm" href="tel:' + DATA.tel + '">' + T('confirmCall') + '</a>' +
+      '<button class="btn btn-ghost btn-sm" type="button" id="confirmAgain">' + T('confirmAgain') + '</button>' +
+      '</div>' +
+      '<p class="tip-line">' + T('tipHero') + '</p>';
+    var again = $('#confirmAgain');
+    if (again) again.addEventListener('click', function () {
+      $('#confirmPane').hidden = true; $('#bookForm').hidden = false;
+      $('#bName').focus(); announce(T('confirmAgain'));
+    });
+  }
+  function persistDefaults() {
+    try {
+      localStorage.setItem(BOOT.K.defaults, JSON.stringify({
+        party: $('#bParty').value, mode: STATE.mode, diet: $('#bDiet').value,
+        occasion: $('#bOccasion').value, needs: STATE.needs
+      }));
+    } catch (e) {}
+  }
+  function restoreDefaults() {
+    try {
+      var raw = localStorage.getItem(BOOT.K.defaults);
+      if (!raw) { $('#bDate').value = defaultDate(); STATE.date = $('#bDate').value; return; }
+      var d = JSON.parse(raw);
+      if (d.party) $('#bParty').value = d.party;
+      if (d.mode) STATE.mode = d.mode;
+      if (d.diet) $('#bDiet').value = d.diet;
+      if (d.occasion) $('#bOccasion').value = d.occasion;
+      if (d.needs) STATE.needs = d.needs.slice();
+      $('#remembered').hidden = false;
+      $('#remembered').textContent = T('remembered');
+      $('#bDate').value = defaultDate();
+      STATE.date = $('#bDate').value;
+    } catch (e) { $('#bDate').value = defaultDate(); STATE.date = $('#bDate').value; }
+  }
+  function defaultDate() {
+    var d = new Date();
+    if (!DATA.hours[d.getDay()]) d.setDate(d.getDate() + 1);   /* skip Tuesday */
+    return d.toISOString().slice(0, 10);
+  }
+  /* ---- tip flow: modal, focus trap, Esc restores ---- */
+  var tipState = { lastFocus: null, amounts: [1, 2, 5, 10] };
+  function renderTipAmounts() {
+    $('#tipAmounts').innerHTML = tipState.amounts.map(function (a) {
+      return '<button class="tipx latn" lang="en" dir="ltr" type="button" data-tip="' + a + '" aria-pressed="false">£' + a + '</button>';
+    }).join('');
+  }
+  function openTip(trigger) {
+    tipState.lastFocus = trigger || document.activeElement;
+    var m = $('#tipModal');
+    m.hidden = false;
+    var f = m.querySelector('#tipClose');
+    if (f) f.focus();
+    document.addEventListener('keydown', tipKeys, true);
+    m.addEventListener('click', function (e) { if (e.target === m) closeTip(); });
+  }
+  function closeTip() {
+    var m = $('#tipModal');
+    if (m.hidden) return;
+    m.hidden = true;
+    document.removeEventListener('keydown', tipKeys, true);
+    if (tipState.lastFocus && tipState.lastFocus.focus) tipState.lastFocus.focus();
+  }
+  function tipKeys(e) {
+    var m = $('#tipModal');
+    if (e.key === 'Escape') { e.preventDefault(); closeTip(); return; }
+    if (e.key !== 'Tab') return;
+    var items = $$('button, [href], input, select, textarea', m).filter(function (el) { return !el.disabled && el.offsetParent !== null; });
+    if (!items.length) return;
+    var first = items[0], last = items[items.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  }
+  function bindTip() {
+    renderTipAmounts();
+    $('#tipAmounts').addEventListener('click', function (e) {
+      var b = e.target.closest('[data-tip]'); if (!b) return;
+      var v = parseFloat(b.getAttribute('data-tip'));
+      STATE.tip = v;
+      $$('[data-tip]').forEach(function (x) { x.setAttribute('aria-pressed', String(parseFloat(x.getAttribute('data-tip')) === v)); });
+      $('#tipCustom').value = '';
+      renderSummary();
+    });
+    $('#tipCustom').addEventListener('input', function (e) {
+      var v = parseFloat(e.target.value);
+      STATE.tip = isNaN(v) ? null : v;
+      $$('[data-tip]').forEach(function (x) { x.setAttribute('aria-pressed', 'false'); });
+      renderSummary();
+    });
+    $('#tipPay').addEventListener('click', function () {
+      if (!STATE.tip) {
+        announce(T('tipOther') + ': ' + '£1–£200');
+        $('#tipCustom').focus();
+        return;
+      }
+      /* production: POST /api/tip -> PayPal Orders v2 -> approve link */
+      var lv = $('#tipLive');
+      lv.hidden = false;
+      lv.textContent = T('tipThanks') + ' £' + STATE.tip + ' ' + T('tipThanks2') + ' ' + T('tipSimulated');
+      renderSummary();
+    });
+    $('#tipLater').addEventListener('click', closeTip);
+    $('#tipClose').addEventListener('click', closeTip);
+    ['#tipBtn2', '#tipBtn3', '#sumTip'].forEach(function (sel) {
+      var el = $(sel); if (el) el.addEventListener('click', function () { openTip(el); });
+    });
+    document.addEventListener('click', function (e) {
+      var t = e.target.closest('[data-open-tip]');
+      if (t) openTip(t);
+    });
+    $('#giftBtn').addEventListener('click', function () {
+      announce(STATE.lang === 'ar' ? 'قسائم الهدايا: عنصر مؤقت — تُربط ببوابة الدفع في الإنتاج.' : 'Gift vouchers: PLACEHOLDER — wired to the payment gateway in production.');
+    });
+  }
+
+  /* ===================================================================
+     10. OBSERVERS + INIT
+     =================================================================== */
+  function bindGlobals() {
+    /* canvas sizing from clientWidth/Height + ResizeObserver (§6) */
+    var ro = null;
+    if ('ResizeObserver' in window) {
+      ro = new ResizeObserver(function () {
+        [['#gl'], ['#gl2d']].forEach(function (p) {
+          var cv = $(p[0]);
+          if (cv && !cv.hidden) sizeCanvas(cv);
+        });
+      });
+      ro.observe($('#heroBg'));
+    }
+    window.addEventListener('resize', function () {
+      $$('#heroBg canvas').forEach(function (cv) { if (!cv.hidden) sizeCanvas(cv); });
+    });
+    /* pause off-screen */
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (es) {
+        es.forEach(function (en) { GL.visible = en.isIntersecting; });
+      }, { threshold: 0.02 }).observe($('#top'));
+    }
+    /* pause on tab-hide */
+    document.addEventListener('visibilitychange', function () { GL.visible = !document.hidden && GL.visible; });
+  }
+  function init() {
+    applyTheme(STATE.theme);
+    applyAccent(STATE.accent);
+    applyLang(STATE.lang, true);
+    restoreDefaults();
+    renderSlots(); renderSummary();
+    bindGlobals();
+    bindDock(); bindTabs(); bindLegend(); bindMatcher(); bindBooking(); bindTip();
+    bindHeroInteractions();
+    initHero();
+    observeReveals();
+    announce(STATE.lang === 'ar' ? 'المظهر واللغة والإطلالة بين يديك.' : 'Theme, accent and language — yours to move.');
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
+})();
+
+</script>
+</body>
+</html>
