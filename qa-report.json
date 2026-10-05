@@ -1,0 +1,377 @@
+[
+  {
+    "check": "6 stills on disk == 6 referenced",
+    "pass": true,
+    "detail": "01-signature-smash.jpg, 02-first-of-service-board.jpg, 03-shake-counter.jpg, 04-feast-box-dusk.jpg, 05-the-vantage.jpg, 06-biscoff-shake.jpg"
+  },
+  {
+    "check": "images load (naturalWidth > 0)",
+    "pass": true,
+    "detail": "11 img elements"
+  },
+  {
+    "check": "images HTTP 200",
+    "pass": true,
+    "detail": "all 200 \u00b7 {\"04-feast-box-dusk.jpg\": 200, \"01-signature-smash.jpg\": 200, \"02-first-of-service-board.jpg\": 200, \"06-biscoff-shake.jpg\": 200, \"03-shake-counter.jpg\": 200, \"05-the-vantage.jpg\": 200}"
+  },
+  {
+    "check": "every img has alt + width/height",
+    "pass": true,
+    "detail": "missing: []"
+  },
+  {
+    "check": "all but the hero still are lazy",
+    "pass": true,
+    "detail": "lazy=10 of 11"
+  },
+  {
+    "check": "Dark tokens exact per \u00a72",
+    "pass": true,
+    "detail": "{\"bg\": \"#070C12\", \"card\": \"#111827\", \"text\": \"#F5F1E8\", \"accent\": \"#D4AF37\", \"accentSolid\": \"#D4AF37\", \"onAccent\": \"#0A0E14\", \"muted\": \"#A8B0BD\", \"focus\": \"#E8CC72\", \"theme\": \"dark\", \"dir\": \"ltr\", \"lang\": \"en\"}"
+  },
+  {
+    "check": "Dark: body/muted text >= 7:1",
+    "pass": true,
+    "detail": "{\"section_lede\": 8.98, \"muted_para\": 8.12, \"menu_desc\": 8.68, \"faq_answer\": 8.12}"
+  },
+  {
+    "check": "Dark: hero text over the live shader >= 4.5:1 (measured, not assumed)",
+    "pass": true,
+    "detail": "{\"h1\": 17.41, \"sub\": 8.98, \"chip\": 17.41, \"tip\": 8.98, \"aside\": 17.41, \"legend\": 8.98}"
+  },
+  {
+    "check": "Dark: button labels >= 4.5:1",
+    "pass": true,
+    "detail": "{\"btn_primary\": 9.2, \"btn_glass\": 15.74}"
+  },
+  {
+    "check": "Dark: bare icon control label >= 3:1",
+    "pass": true,
+    "detail": "17.41"
+  },
+  {
+    "check": "every solid button label >= 4.5:1 (full sweep)",
+    "pass": true,
+    "detail": "[{\"label\": \"Reserve a table\", \"ratio\": 9.2}, {\"label\": \"Carry this into my\", \"ratio\": 9.2}, {\"label\": \"Confirm my slot\", \"ratio\": 9.2}, {\"label\": \"Reserve a table\", \"ratio\": 9.2}]"
+  },
+  {
+    "check": "Light tokens exact per \u00a72 (gold\u2192copper)",
+    "pass": true,
+    "detail": "{\"bg\": \"#FDFBF7\", \"card\": \"#F3EFEA\", \"text\": \"#0F172A\", \"accent\": \"#B45309\", \"accentSolid\": \"#B45309\", \"onAccent\": \"#FFFFFF\", \"muted\": \"#3B4553\", \"focus\": \"#664A08\", \"theme\": \"light\", \"dir\": \"ltr\", \"lang\": \"en\"}"
+  },
+  {
+    "check": "Light: body/muted text >= 7:1",
+    "pass": true,
+    "detail": "{\"section_lede\": 9.4, \"muted_para\": 8.49, \"menu_desc\": 8.85, \"faq_answer\": 8.49}"
+  },
+  {
+    "check": "Light: button labels >= 4.5:1",
+    "pass": true,
+    "detail": "{\"btn_primary\": 5.02, \"btn_glass\": 15.6}"
+  },
+  {
+    "check": "Light: hero text over the live shader >= 4.5:1 (measured, not assumed)",
+    "pass": true,
+    "detail": "{\"h1\": 17.27, \"sub\": 9.4, \"chip\": 17.27, \"aside\": 17.27, \"legend\": 9.4}"
+  },
+  {
+    "check": "theme toggle round-trips to dark",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "4 accents re-tint UI + shader palette",
+    "pass": true,
+    "detail": "emerald:#059669/rgb(5, 150, 105)/shader=[0.02, 0.588, 0.412] | cobalt:#1E40AF/rgb(30, 64, 175)/shader=[0.118, 0.251, 0.686] | rose:#E11D48/rgb(190, 18, 60)/shader=[0.882, 0.114, 0.282] | gold:#D4AF37/rgb(212, 175, 55)/shader=[0.831, 0.686, 0.216]"
+  },
+  {
+    "check": "accent pressed-state follows selection",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "accent-ink text >= 4.5:1 in all 8 theme\u00d7accent combos",
+    "pass": true,
+    "detail": "worst=5.31 \u00b7 {\"dark/gold\": 12.44, \"dark/emerald\": 10.9, \"dark/cobalt\": 9.54, \"dark/rose\": 7.29, \"light/gold\": 7.97, \"light/emerald\": 5.31, \"light/cobalt\": 8.44, \"light/rose\": 6.08}"
+  },
+  {
+    "check": "JSON-LD parses (Restaurant + FAQPage)",
+    "pass": true,
+    "detail": "[{\"ok\": true, \"type\": \"Restaurant\"}, {\"ok\": true, \"type\": \"FAQPage\"}]"
+  },
+  {
+    "check": "JSON-LD carries address/geo/phone/priceRange/acceptsReservations",
+    "pass": true,
+    "detail": "acceptsReservations=True geo={'@type': 'GeoCoordinates', 'latitude': 55.9306092, 'longitude': -3.1761176}"
+  },
+  {
+    "check": "skip link is first in DOM order",
+    "pass": true,
+    "detail": "{\"tag\": \"A\", \"cls\": \"skip\", \"txt\": \"Skip to content\"}"
+  },
+  {
+    "check": "skip link is the first tab stop",
+    "pass": true,
+    "detail": "{\"id\": \"skiplink\", \"cls\": \"skip\", \"txt\": \"Skip to content\"}"
+  },
+  {
+    "check": "10 consecutive tab stops show a 3px focus ring",
+    "pass": true,
+    "detail": "[\"A#:3px\", \"A#:3px\", \"A#:3px\", \"A#:3px\", \"A#:3px\", \"A#:3px\", \"BUTTON#themeBtn:3px\", \"BUTTON#:3px\", \"BUTTON#:3px\", \"BUTTON#:3px\"]"
+  },
+  {
+    "check": "focus outline is never transitioned from 0px",
+    "pass": true,
+    "detail": "\"none\""
+  },
+  {
+    "check": "WebGL2 'liquid light' shader is the active renderer",
+    "pass": true,
+    "detail": "{\"mode\": \"webgl2\", \"fallback\": null, \"canvasVisible\": true, \"stillHidden\": true, \"dpr\": 1, \"size\": [1440, 953, 1440, 953], \"native\": true}"
+  },
+  {
+    "check": "fallback chain wired (2D canvas -> static still)",
+    "pass": true,
+    "detail": "shader -> 2D canvas -> still"
+  },
+  {
+    "check": "shader DPR <= 2",
+    "pass": true,
+    "detail": "dpr=1"
+  },
+  {
+    "check": "canvas sized from clientWidth/Height, not window",
+    "pass": true,
+    "detail": "[1440, 953, 1440, 953]"
+  },
+  {
+    "check": "magnetic cursor suppressed on touch / reduced motion (rule present)",
+    "pass": true,
+    "detail": "{\"display\": \"grid\", \"on\": false, \"label\": \"\"}"
+  },
+  {
+    "check": "menu tabs switch panels",
+    "pass": true,
+    "detail": "Bonnie Smash \u2192 Biscoff Shake"
+  },
+  {
+    "check": "sticky figure cross-fades per tab",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "tabs are arrow-key navigable",
+    "pass": true,
+    "detail": "selected=Feeds a crowd focused=crowd"
+  },
+  {
+    "check": "Home/End jump to first/last tab",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "dotted-leader prices render in the real band",
+    "pass": true,
+    "detail": [
+      "\u00a36.95",
+      "\u00a38.50",
+      "\u00a39.50",
+      "\u00a38.95"
+    ]
+  },
+  {
+    "check": "dietary chips + legend present",
+    "pass": true,
+    "detail": "legend buttons=4"
+  },
+  {
+    "check": "frame-board text present",
+    "pass": true,
+    "detail": "\u2726\nIndicative \u2014 the kitchen writes the final one each morning."
+  },
+  {
+    "check": "provenance strip present",
+    "pass": true,
+    "detail": "Blackford Hill & the Royal Observatory \u00b7 \u2248 0.9 km \u00b7 Hermitage of Braid local nature reserv"
+  },
+  {
+    "check": "AR switch flips dir + lang",
+    "pass": true,
+    "detail": "{\"dir\": \"rtl\", \"lang\": \"ar\", \"h1\": \"\\u0633\\u0645\\u0627\\u0634 \\u0628\\u0631\\u063a\\u0631 \\u064a\\u0646\\u062a\\u0638\\u0631\\u06"
+  },
+  {
+    "check": "AR re-localises dynamic outputs (stats/menu/hero)",
+    "pass": true,
+    "detail": "stat=\u0660\u066b\u0660 menuDesc=\u0642\u0637\u0639\u0629 \u0623\u0646\u063a\u0648\u0633 \u0663 \u0623\u0648\u0646\u0635\u0627\u062a \u0645\u0633\u062d\u0648\u0642\u0629\u060c "
+  },
+  {
+    "check": "AR uses Naskh/Amiri stack",
+    "pass": true,
+    "detail": "Amiri"
+  },
+  {
+    "check": "AR body text is larger",
+    "pass": true,
+    "detail": "17.92px"
+  },
+  {
+    "check": "Latin quotes/dish names pinned LTR inside RTL",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "nav mirrors under RTL (logical properties)",
+    "pass": true,
+    "detail": "433.609px"
+  },
+  {
+    "check": "tabs are RTL-aware (ArrowLeft advances to the next tab, per APG RTL rule)",
+    "pass": true,
+    "detail": "focused=wings (expected the next tab, not the previous)"
+  },
+  {
+    "check": "back to EN restores ltr",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "matcher resolves a named recommendation",
+    "pass": true,
+    "detail": "\u201cThe Blackford Double\u201d"
+  },
+  {
+    "check": "matcher pre-fills the booking form",
+    "pass": true,
+    "detail": "{\"party\": \"2\", \"notes\": \"The Blackford Double \\u2014 Smash XL \\u00a38.50 \\u00d72 \\u00b7 Bonnie Loaded Fries \\u00a38.50\", \"mode\": \"Eat in\", \"focused\": \"bDate\"}"
+  },
+  {
+    "check": "pre-fill moves focus to the booking step",
+    "pass": true,
+    "detail": "bDate"
+  },
+  {
+    "check": "in-service slot chips exist",
+    "pass": true,
+    "detail": "{\"enabled\": 27, \"disabled\": 1, \"struck\": \"line-through\", \"hint\": \"Kitchen runs the published evening window. Daytime slots are\", \"lunchStruck\": \"line-through\"}"
+  },
+  {
+    "check": "out-of-service slots are disabled + struck (not colour-only)",
+    "pass": true,
+    "detail": "{\"enabled\": 27, \"disabled\": 1, \"struck\": \"line-through\", \"hint\": \"Kitchen runs the published evening window. Daytime slots are\", \"lunchStruck\": \"line-through\"}"
+  },
+  {
+    "check": "Tuesday (no service in majority record) offers zero bookable slots",
+    "pass": true,
+    "detail": "{\"slots\": 0, \"dayoff\": 2, \"hint\": \"Tuesday is disabled: three public sources show no Tuesday service, though our own site still lists one. Call the counter befo"
+  },
+  {
+    "check": "validation announces via aria-live",
+    "pass": true,
+    "detail": "We still need: your name, a mobile number of at least 7 digits"
+  },
+  {
+    "check": "validation marks invalid + shows inline errors",
+    "pass": true,
+    "detail": "{\"live\": \"We still need: your name, a mobile number of at least 7 digits\", \"focused\": \"bName\", \"invalid\": [\"bName\", \"bPhone\"], \"visibleErr\": 2}"
+  },
+  {
+    "check": "validation moves focus to first invalid control",
+    "pass": true,
+    "detail": "bName"
+  },
+  {
+    "check": "confirmation pane renders with reference",
+    "pass": true,
+    "detail": "{\"shown\": true, \"formHidden\": true, \"ref\": \"BB-YMTI-5\", \"tipBtn\": true}"
+  },
+  {
+    "check": "tip modal opens as a dialog and takes focus",
+    "pass": true,
+    "detail": "{\"open\": true, \"focused\": \"tipClose\", \"role\": \"dialog\", \"modalAttr\": \"true\"}"
+  },
+  {
+    "check": "modal focus trap holds across 14 tabs",
+    "pass": true,
+    "detail": "14/14 inside"
+  },
+  {
+    "check": "Esc closes the modal",
+    "pass": true,
+    "detail": "{\"closed\": true, \"back\": true}"
+  },
+  {
+    "check": "Esc returns focus to the tip trigger",
+    "pass": true,
+    "detail": "{\"closed\": true, \"back\": true}"
+  },
+  {
+    "check": "counters settle on the verified values",
+    "pass": true,
+    "detail": "[\"4.1\", \"79\", \"11\", \"6\"]"
+  },
+  {
+    "check": "reviews are verbatim English, pinned LTR",
+    "pass": true,
+    "detail": "6 quotes"
+  },
+  {
+    "check": "zero horizontal overflow at 390px",
+    "pass": true,
+    "detail": "scrollWidth=390 clientWidth=390 \u00b7 ['IMG.']"
+  },
+  {
+    "check": "mobile fixed bottom action bar present (Reserve / Call / Tip)",
+    "pass": true,
+    "detail": "{\"display\": \"flex\", \"visible\": true, \"top\": 755.40625, \"btns\": 3}"
+  },
+  {
+    "check": "mobile bar targets are >= 44px tall",
+    "pass": true,
+    "detail": "[{\"t\": \"Reserve a table\", \"h\": 68, \"w\": 117}, {\"t\": \"Call\", \"h\": 68, \"w\": 117}, {\"t\": \"Tip\", \"h\": 68, \"w\": 117}]"
+  },
+  {
+    "check": "glass dock fits the 390px viewport",
+    "pass": true,
+    "detail": "{\"right\": 377, \"vw\": 390, \"h\": 47}"
+  },
+  {
+    "check": "reduced motion swaps shader for the still",
+    "pass": true,
+    "detail": "{\"heroMode\": \"static\", \"glHidden\": true, \"c2Hidden\": true, \"stillVisible\": true, \"reveals\": true, \"counter\": \"4.1\", \"cursor\": \"none\", \"bandAnim\": \"none\"}"
+  },
+  {
+    "check": "reduced motion: reveals are instant",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "reduced motion: counters are instant, not animated",
+    "pass": true,
+    "detail": "4.1"
+  },
+  {
+    "check": "reduced motion: Ken Burns stilled",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "check": "reduced motion: magnetic cursor suppressed",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "check": "with WebGL unavailable it degrades to the 2D canvas",
+    "pass": true,
+    "detail": "{\"mode\": \"canvas2d\", \"why\": \"no webgl2\", \"twoD\": true, \"gl\": true, \"still\": true}"
+  },
+  {
+    "check": "with no canvas at all it degrades to the static still",
+    "pass": true,
+    "detail": "{\"mode\": \"static\", \"still\": true, \"gl\": true, \"twoD\": true}"
+  },
+  {
+    "check": "zero console/page errors",
+    "pass": true,
+    "detail": "[]"
+  }
+]
